@@ -137,6 +137,20 @@ def load_json_from_file(json_path: Path) -> list[dict]:
     help="Optional: path to lookup.M.csv to filter abstracts by known concepts.",
 )
 @click.option(
+    "--min-concept-length",
+    default=8,
+    show_default=True,
+    type=int,
+    help="Minimum character length of lookup concepts used for filtering (avoids short ambiguous matches like 'CO2', 'OH').",
+)
+@click.option(
+    "--min-concept-count",
+    default=5,
+    show_default=True,
+    type=int,
+    help="Only use lookup concepts with count >= this value.",
+)
+@click.option(
     "--filter-by-division",
     default=True,
     show_default=True,
@@ -154,17 +168,24 @@ def parse_nsf_json(
     inputs: tuple,
     out: str,
     lookup_path: str | None,
+    min_concept_length: int,
+    min_concept_count: int,
     filter_by_division: bool,
     min_abstract_length: int,
 ):
     Path(out).parent.mkdir(parents=True, exist_ok=True)
 
-    # load lookup concepts if provided
+    # load lookup concepts if provided — filter short/rare concepts
     lookup_concepts = None
     if lookup_path:
         lookup_df = pd.read_csv(lookup_path)
-        lookup_concepts = set(lookup_df["concept"].str.lower().tolist())
-        logger.info(f"Loaded {len(lookup_concepts)} concepts from lookup for filtering")
+        if "count" in lookup_df.columns:
+            lookup_df = lookup_df[lookup_df["count"] >= min_concept_count]
+        lookup_concepts = set(
+            c.lower() for c in lookup_df["concept"].dropna().tolist()
+            if len(c.strip()) >= min_concept_length
+        )
+        logger.info(f"Loaded {len(lookup_concepts)} concepts from lookup (min_length={min_concept_length}, min_count={min_concept_count})")
 
     all_records = []
 
