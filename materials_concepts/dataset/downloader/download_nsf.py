@@ -9,20 +9,6 @@ from tqdm import tqdm
 
 NSF_API_URL = "https://api.nsf.gov/services/v1/awards.json"
 
-# NSF programs focused on materials science and manufacturing
-NSF_PROGRAMS = [
-    "Division of Materials Research",
-    "Civil, Mechanical and Manufacturing Innovation",
-    "Advanced Manufacturing",
-    "Materials Engineering and Processing",
-    "Metals, Minerals, and Mining",
-    "Ceramics",
-    "Polymers",
-    "Solid State and Materials Chemistry",
-    "Condensed Matter Physics",
-    "Biomaterials",
-]
-
 FIELDS = ",".join([
     "id",
     "title",
@@ -37,6 +23,17 @@ FIELDS = ",".join([
     "piLastName",
     "agency",
 ])
+
+
+def load_keywords_from_lookup(lookup_path: str, min_count: int, in_graph_only: bool) -> list[str]:
+    df = pd.read_csv(lookup_path)
+    if in_graph_only and "in_graph" in df.columns:
+        df = df[df["in_graph"].astype(str).str.upper() == "TRUE"]
+    if "count" in df.columns:
+        df = df[df["count"] >= min_count]
+    keywords = df["concept"].dropna().str.strip().tolist()
+    logger.info(f"Loaded {len(keywords)} keywords from '{lookup_path}' (min_count={min_count})")
+    return keywords
 
 
 def fetch_page(keyword: str, offset: int, date_start: str, date_end: str) -> list:
@@ -62,7 +59,7 @@ def fetch_awards(keyword: str, date_start: str, date_end: str, fetch_limit: int 
     results = []
     offset = 1
 
-    with tqdm(desc=f"Downloading '{keyword}'", unit=" awards") as pbar:
+    with tqdm(desc=f"  '{keyword}'", unit=" awards", leave=False) as pbar:
         while True:
             awards = fetch_page(keyword, offset, date_start, date_end)
             if not awards:
@@ -95,18 +92,37 @@ def to_pipeline_format(df: pd.DataFrame) -> pd.DataFrame:
         "is_retracted":     False,
         "is_paratext":      False,
     })
-    # normalize date to YYYY-MM-DD
     renamed["publication_date"] = pd.to_datetime(
         renamed["publication_date"], errors="coerce"
     ).dt.strftime("%Y-%m-%d")
     return renamed
 
 
-@click.command("Download NSF awards for materials science and manufacturing.")
+@click.command("Download NSF awards using concepts from lookup.M.csv as keywords.")
+@click.option(
+    "--lookup-path",
+    default="data/table/lookup/lookup.M.csv",
+    show_default=True,
+    help="Path to lookup.M.csv — concepts will be used as NSF search keywords.",
+)
+@click.option(
+    "--min-count",
+    default=10,
+    show_default=True,
+    type=int,
+    help="Only use concepts with count >= this value (avoids rare/noisy concepts).",
+)
+@click.option(
+    "--in-graph-only",
+    default=True,
+    show_default=True,
+    type=bool,
+    help="Only use concepts where in_graph=True.",
+)
 @click.option(
     "--keywords",
-    default="materials science,advanced manufacturing,smart materials,piezoelectric,ceramics,polymers,composites",
-    help="Comma-separated list of keywords to search for.",
+    default=None,
+    help="Override: comma-separated keywords instead of lookup file.",
 )
 @click.option(
     "--date-start",
@@ -139,7 +155,10 @@ def to_pipeline_format(df: pd.DataFrame) -> pd.DataFrame:
     help="Directory to cache per-keyword CSV files.",
 )
 def download_nsf(
-    keywords: str,
+    lookup_path: str,
+    min_count: int,
+    in_graph_only: bool,
+    keywords: str | None,
     date_start: str,
     date_end: str,
     out: str,
@@ -150,41 +169,50 @@ def download_nsf(
     cache_path.mkdir(parents=True, exist_ok=True)
     Path(out).parent.mkdir(parents=True, exist_ok=True)
 
-    keyword_list = [k.strip() for k in keywords.split(",")]
-    all_dfs = []
+    # load keywords from lookup.M.csv or manual override
+    if keywords:
+        keyword_list = [k.strip() for k in keywords.split(",")]
+        logger.info(f"Using {len(keyword_list)} manually provided keywords")
+    else:
+        keyword_list = load_keywords_from_lookup(lookup_path, min_count, in_graph_only)
 
-    for keyword in keyword_list:
-        cache_file = cache_path / f"{keyword.replace(' ', '_')}.csv"
+    all_dfs = []
+    total = len(keyword_list)
+
+    for i, keyword in enumerate(keyword_list, 1):
+        cache_file = cache_path / f"{keyword.replace(' ', '_').replace('/', '-')}.csv"
 
         if cache_file.exists():
-            logger.info(f"Loading cached results for '{keyword}'")
+            logger.info(f"({i}/{total}) Cached: '{keyword}'")
             df = pd.read_csv(cache_file)
         else:
-            logger.info(f"Fetching awards for keyword: '{keyword}'")
+            logger.info(f"({i}/{total}) Fetching: '{keyword}'")
             awards = fetch_awards(keyword, date_start, date_end, fetch_limit)
 
             if not awards:
-                logger.warning(f"No awards found for '{keyword}'")
+                logger.debug(f"No awards found for '{keyword}'")
+                # write empty cache to skip on re-run
+                pd.DataFrame().to_csv(cache_file, index=False)
                 continue
 
             df = to_pipeline_format(pd.DataFrame(awards))
             df.to_csv(cache_file, index=False)
-            logger.info(f"Cached {len(df)} awards for '{keyword}'")
+            logger.info(f"  → {len(df)} awards found")
 
-        all_dfs.append(df)
+        if len(df) > 0:
+            all_dfs.append(df)
 
     if not all_dfs:
-        logger.error("No awards downloaded. Check your keywords or date range.")
+        logger.error("No awards downloaded. Check your lookup file or date range.")
         return
 
     merged = pd.concat(all_dfs).drop_duplicates(subset="id").reset_index(drop=True)
-    # remove entries with empty abstracts
     merged = merged[merged["abstract"].notna() & (merged["abstract"].str.strip() != "")]
     merged.to_csv(out, index=False)
 
-    logger.info(f"Saved {len(merged)} unique awards to '{out}'")
+    logger.info(f"Done! Saved {len(merged)} unique awards to '{out}'")
     logger.info(f"Date range: {date_start} → {date_end}")
-    logger.info(f"Keywords searched: {keyword_list}")
+    logger.info(f"Keywords searched: {total}, with results: {len(all_dfs)}")
 
 
 if __name__ == "__main__":
