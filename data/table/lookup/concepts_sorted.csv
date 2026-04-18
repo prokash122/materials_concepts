@@ -1,0 +1,4078 @@
+mechanical property,918,True
+tensile strength,392,True
+x ray diffraction,390,True
+transmission electron microscopy,369,True
+scanning electron microscopy,321,True
+electron microscopy,254,True
+grain size,243,True
+aluminium alloy,242,True
+yield strength,232,True
+grain boundary,201,True
+tensile property,196,True
+plastic deformation,183,True
+strain rate,168,True
+grain refinement,166,True
+tensile test,161,True
+optical microscopy,138,True
+SiC,136,True
+heat treatment,133,True
+youngs modulus,123,True
+microstructural evolution,120,True
+dislocation density,119,True
+mechanical behavior,116,True
+equal channel angular pressing,114,True
+fracture toughness,111,True
+Al2O3,111,True
+thermal stability,103,True
+residual stress,98,True
+differential scanning calorimetry,93,True
+phase transformation,90,True
+grain growth,88,True
+microstructure evolution,87,True
+thermal property,86,True
+Ti6Al4V,86,True
+dynamic recrystallization,84,True
+titanium alloy,83,True
+corrosion resistance,83,True
+thermal conductivity,82,True
+ultimate tensile strength,81,True
+selective laser melting,81,True
+elevated temperature,81,True
+scanning electron microscope,79,True
+particle size,77,True
+electrical conductivity,77,True
+magnesium alloy,74,True
+additive manufacturing,74,True
+deformation mechanism,73,True
+carbon nanotube,72,True
+electron backscatter diffraction,71,True
+flow stress,70,True
+elastic modulus,70,True
+crack propagation,70,True
+TiO2,70,True
+wear resistance,69,True
+friction stir welding,68,True
+austenitic stainless steel,68,True
+spark plasma sintering,66,True
+raman spectroscopy,66,True
+physical property,66,True
+severe plastic deformation,65,True
+metal matrix composite,64,True
+tensile testing,63,True
+stainless steel,63,True
+SiO2,63,True
+yield stress,61,True
+shape memory alloy,60,True
+cooling rate,60,True
+high pressure torsion,59,True
+TiC,59,True
+fatigue life,58,True
+deformation behavior,58,True
+x ray photoelectron spectroscopy,57,True
+electrical property,56,True
+high entropy alloy,55,True
+compressive strength,53,True
+cold rolling,50,True
+stacking fault energy,49,True
+crack initiation,48,True
+compression test,48,True
+strain hardening,46,True
+martensitic transformation,46,True
+NiTi,46,True
+FSW,46,True
+vicker hardness,45,True
+infrared spectroscopy,45,True
+hot deformation,45,True
+work hardening,44,True
+crystal structure,44,True
+microstructural change,43,True
+glass transition temperature,43,True
+fracture surface,43,True
+high strength,42,True
+mechanical alloying,41,True
+matrix composite,41,True
+magnetic property,41,True
+finite element analysis,41,True
+transmission electron microscope,40,True
+stress strain curve,40,True
+friction stir processing,40,True
+HV,40,True
+strain rate sensitivity,39,True
+microstructural feature,39,True
+fourier transform infrared spectroscopy,39,True
+CO2,39,True
+hot isostatic pressing,38,True
+high temperature,38,True
+energy dispersive x ray spectroscopy,38,True
+deformation temperature,38,True
+YS,38,True
+AlSi,38,True
+retained austenite,37,True
+heat affected zone,37,True
+grain boundary sliding,37,True
+flexural strength,37,True
+aluminium matrix composite,37,True
+NaCl,37,True
+shear band,36,True
+electron microscope,36,True
+creep resistance,36,True
+activation energy,36,True
+ZnO,36,True
+thermogravimetric analysis,35,True
+fracture behavior,35,True
+ZrO2,35,True
+AlMg,35,True
+crystallographic texture,34,True
+FSP,34,True
+microstructural characterization,33,True
+finite element simulation,33,True
+crack growth,33,True
+chemical composition,33,True
+ball milling,33,True
+annealing temperature,33,True
+thermal barrier coating,32,True
+tensile behavior,32,True
+lattice parameter,32,True
+atomic force microscopy,32,True
+surface roughness,31,True
+plastic strain,31,True
+nickel based superalloy,31,True
+mechanical response,31,True
+mechanical performance,31,True
+hot extrusion,31,True
+fatigue behavior,31,True
+equal channel angular extrusion,31,True
+solid solution,30,True
+optical property,30,True
+intermetallic compound,30,True
+fracture mode,30,True
+fatigue strength,30,True
+equiaxed grain,30,True
+aluminium matrix,30,True
+TiB2,30,True
+AlCu,30,True
+tensile deformation,29,True
+structural property,29,True
+strengthening mechanism,29,True
+processing map,29,True
+finite element model,29,True
+HIP,29,True
+powder metallurgy,28,True
+phase formation,28,True
+microstructural analysis,28,True
+material property,28,True
+dislocation structure,28,True
+dielectric property,28,True
+density functional theory,28,True
+deformation mode,28,True
+aerospace industry,28,True
+AlN,28,True
+thermal treatment,27,True
+thermal expansion,27,True
+tensile ductility,27,True
+particle reinforcement,27,True
+optical microscope,27,True
+matrix phase,27,True
+hot deformation behavior,27,True
+crystallite size,27,True
+creep behavior,27,True
+wear rate,26,True
+thermal analysis,26,True
+tensile stress,26,True
+shear strength,26,True
+nickel base superalloy,26,True
+molecular dynamic,26,True
+molecular dynamic simulation,26,True
+laser melting,26,True
+composite material,26,True
+biomedical application,26,True
+ambient temperature,26,True
+alloying element,26,True
+accumulative roll bonding,26,True
+TiAl,26,True
+surface area,25,True
+solid solution strengthening,25,True
+neutron diffraction,25,True
+mechanical testing,25,True
+low carbon steel,25,True
+finite element method,25,True
+fatigue property,25,True
+elongation to failure,25,True
+electrical resistivity,25,True
+dislocation motion,25,True
+crystallographic orientation,25,True
+automotive industry,25,True
+thermomechanical processing,24,True
+texture evolution,24,True
+strain hardening rate,24,True
+stir zone,24,True
+spark plasma,24,True
+particle distribution,24,True
+laves phase,24,True
+hot pressing,24,True
+hot compression test,24,True
+graphene oxide,24,True
+friction stir weld,24,True
+electron diffraction,24,True
+dynamic recovery,24,True
+corrosion behavior,24,True
+WC,24,True
+Si3N4,24,True
+Mg2Si,24,True
+Mg17Al12,24,True
+BC,24,True
+AlMgSi,24,True
+tensile yield strength,23,True
+structural material,23,True
+poisson ratio,23,True
+photoelectron spectroscopy,23,True
+phase transition,23,True
+mechanical strength,23,True
+low cycle fatigue,23,True
+intergranular fracture,23,True
+hot rolling,23,True
+heating rate,23,True
+fracture mechanism,23,True
+directional solidification,23,True
+differential thermal analysis,23,True
+deformation twinning,23,True
+creep strength,23,True
+TiN,23,True
+MgO,23,True
+zener hollomon parameter,22,True
+work hardening rate,22,True
+scanning transmission electron microscopy,22,True
+oxidation resistance,22,True
+micro hardness,22,True
+martensite formation,22,True
+impact toughness,22,True
+failure mechanism,22,True
+epoxy matrix,22,True
+electron back scattered diffraction,22,True
+deformation twin,22,True
+creep rate,22,True
+constitutive equation,22,True
+TiNi,22,True
+x ray diffraction analysis,21,True
+twinning induced plasticity,21,True
+stacking fault,21,True
+single crystal,21,True
+shape memory effect,21,True
+precipitation hardening,21,True
+multi walled carbon nanotube,21,True
+microstructural characteristic,21,True
+microhardness measurement,21,True
+martensitic steel,21,True
+high cycle fatigue,21,True
+extruded alloy,21,True
+az31 magnesium alloy,21,True
+MoSi2,21,True
+toughening mechanism,20,True
+storage modulus,20,True
+silicon carbide,20,True
+pure aluminium,20,True
+nanocrystalline alloy,20,True
+microstructure development,20,True
+intermetallic phase,20,True
+image analysis,20,True
+high strength steel,20,True
+high resolution transmission electron microscopy,20,True
+high angle grain boundary,20,True
+high angle boundary,20,True
+dislocation glide,20,True
+dielectric constant,20,True
+surface modification,19,True
+solution treatment,19,True
+phase separation,19,True
+phase composition,19,True
+particle size distribution,19,True
+numerical simulation,19,True
+nanocrystalline material,19,True
+microstructural observation,19,True
+interfacial bonding,19,True
+high strain rate,19,True
+heat input,19,True
+friction coefficient,19,True
+fracture strain,19,True
+fatigue crack growth,19,True
+epoxy resin,19,True
+energy absorption,19,True
+electron backscattered diffraction,19,True
+cyclic loading,19,True
+compressive residual stress,19,True
+coefficient of thermal expansion,19,True
+austenite grain size,19,True
+aluminium foam,19,True
+TiB,19,True
+x ray,18,True
+relative density,18,True
+pore size,18,True
+microstructural development,18,True
+martensite transformation,18,True
+laser power,18,True
+laser powder bed fusion,18,True
+hall petch relationship,18,True
+fracture energy,18,True
+flow behavior,18,True
+fatigue performance,18,True
+fatigue crack propagation,18,True
+electron beam melting,18,True
+dynamic mechanical analysis,18,True
+dual phase steel,18,True
+dislocation slip,18,True
+compressive property,18,True
+carbon fiber,18,True
+basal texture,18,True
+average grain size,18,True
+amorphous alloy,18,True
+Y2O3,18,True
+CO,18,True
+AlSi10Mg,18,True
+x ray diffractometry,17,True
+uniaxial tensile test,17,True
+twin boundary,17,True
+thermal expansion coefficient,17,True
+surface morphology,17,True
+stress corrosion cracking,17,True
+stress concentration,17,True
+photocatalytic activity,17,True
+peak stress,17,True
+metal matrix,17,True
+mechanical twinning,17,True
+low angle boundary,17,True
+light microscopy,17,True
+impedance spectroscopy,17,True
+hot working,17,True
+equiaxed microstructure,17,True
+electronic property,17,True
+elastic property,17,True
+ductile fracture,17,True
+deformation band,17,True
+crystalline phase,17,True
+creep test,17,True
+compressive stress,17,True
+carbon content,17,True
+bulk metallic glass,17,True
+brittle fracture,17,True
+OH,17,True
+NiAl,17,True
+CeO2,17,True
+uniform elongation,16,True
+shot peening,16,True
+rolling direction,16,True
+recrystallized grain,16,True
+rare earth element,16,True
+pore structure,16,True
+plasma spraying,16,True
+phase precipitation,16,True
+nucleation site,16,True
+microstructural property,16,True
+melting temperature,16,True
+melting point,16,True
+magnetic field,16,True
+layer thickness,16,True
+grain structure,16,True
+grain boundary diffusion,16,True
+fracture characteristic,16,True
+finite element modeling,16,True
+fatigue crack,16,True
+electrochemical property,16,True
+elastic constant,16,True
+dislocation interaction,16,True
+crystalline structure,16,True
+creep property,16,True
+crack formation,16,True
+columnar grain,16,True
+alloy composition,16,True
+FeAl,16,True
+welding speed,15,True
+tribological property,15,True
+thermal cycling,15,True
+surface tension,15,True
+structural application,15,True
+solid oxide fuel cell,15,True
+slip system,15,True
+sintering temperature,15,True
+shear modulus,15,True
+room temperature,15,True
+rheological property,15,True
+phase stability,15,True
+phase diagram,15,True
+molecular weight,15,True
+mechanical behaviour,15,True
+lamellar structure,15,True
+internal stress,15,True
+hydrogen embrittlement,15,True
+hall petch relation,15,True
+graphene nanoplatelet,15,True
+functionally graded material,15,True
+fatigue test,15,True
+fatigue crack initiation,15,True
+duplex stainless steel,15,True
+digital image correlation,15,True
+deformation microstructure,15,True
+crack growth rate,15,True
+contact angle,15,True
+carbon nanotube reinforcement,15,True
+austenitic steel,15,True
+as cast alloy,15,True
+apparent activation energy,15,True
+aerospace application,15,True
+ZrB2,15,True
+SP,15,True
+NbC,15,True
+x ray scattering,14,True
+vicker microhardness,14,True
+ultraviolet visible spectroscopy,14,True
+true strain,14,True
+thermal stress,14,True
+thermal decomposition,14,True
+thermal behavior,14,True
+tensile strain,14,True
+tensile specimen,14,True
+tensile loading,14,True
+structural change,14,True
+stress strain behavior,14,True
+stress relaxation,14,True
+strain hardening behavior,14,True
+strain distribution,14,True
+solid state reaction,14,True
+simulated body fluid,14,True
+schmid factor,14,True
+pure copper,14,True
+precipitation kinetic,14,True
+polycrystalline material,14,True
+piezoelectric property,14,True
+molten aluminium,14,True
+microalloyed steel,14,True
+mechanical test,14,True
+material science,14,True
+low temperature,14,True
+grain size distribution,14,True
+fusion zone,14,True
+fuel cell,14,True
+fatigue failure,14,True
+eutectic alloy,14,True
+energy dispersive spectroscopy,14,True
+electrochemical impedance spectroscopy,14,True
+crystal orientation,14,True
+crack deflection,14,True
+coarse grain,14,True
+atom probe tomography,14,True
+age hardening,14,True
+SC,14,True
+SBF,14,True
+IN718,14,True
+IF,14,True
+BaTiO3,14,True
+B4C,14,True
+work hardening behavior,13,True
+wide angle x ray scattering,13,True
+weld metal,13,True
+uniaxial compression,13,True
+ultimate strength,13,True
+transformation temperature,13,True
+strengthening effect,13,True
+stored energy,13,True
+split hopkinson pressure bar,13,True
+shear strain,13,True
+secondary phase,13,True
+recrystallization kinetic,13,True
+pure magnesium,13,True
+powder x ray diffraction,13,True
+pore size distribution,13,True
+polymer matrix,13,True
+polymer composite,13,True
+point defect,13,True
+physicochemical property,13,True
+oxidation behavior,13,True
+microstructure refinement,13,True
+microstructural refinement,13,True
+metastable phase,13,True
+lithium ion battery,13,True
+lattice constant,13,True
+in situ synthesis,13,True
+hydrostatic pressure,13,True
+hardness measurement,13,True
+grain boundary strengthening,13,True
+dislocation substructure,13,True
+dislocation pile up,13,True
+cell size,13,True
+carbide precipitation,13,True
+bending test,13,True
+adiabatic shear band,13,True
+Mg3Al1Zn,13,True
+KOH,13,True
+FIB,13,True
+CaO,13,True
+316l stainless steel,13,True
+x ray tomography,12,True
+wear property,12,True
+wear behavior,12,True
+uniaxial tension,12,True
+uniaxial compression test,12,True
+ultrafine grain,12,True
+trip steel,12,True
+transformation induced plasticity,12,True
+thin film,12,True
+tetragonal phase,12,True
+tensile elongation,12,True
+structural characterization,12,True
+stress exponent,12,True
+strain hardening exponent,12,True
+static recrystallization,12,True
+small angle x ray scattering,12,True
+silicon nitride,12,True
+silicon carbide particle,12,True
+shear stress,12,True
+shear localization,12,True
+second phase particle,12,True
+proof stress,12,True
+phase analysis,12,True
+nitrogen content,12,True
+microstructure change,12,True
+metallic glass,12,True
+mechanical stability,12,True
+mechanical anisotropy,12,True
+lead free solder,12,True
+high temperature application,12,True
+high strength aluminium alloy,12,True
+high pressure,12,True
+grain size effect,12,True
+grain orientation,12,True
+geometrically necessary dislocation,12,True
+functional property,12,True
+fracture strength,12,True
+fracture resistance,12,True
+field emission scanning electron microscopy,12,True
+fibre texture,12,True
+fcc phase,12,True
+fatigue resistance,12,True
+fatigue limit,12,True
+fatigue crack growth rate,12,True
+failure mode,12,True
+epoxy polymer,12,True
+electronic structure,12,True
+dislocation network,12,True
+deformation process,12,True
+damage accumulation,12,True
+cyclic deformation,12,True
+crystal growth,12,True
+critical stress,12,True
+critical strain,12,True
+crack tip,12,True
+chemical vapor deposition,12,True
+carbon black,12,True
+bcc phase,12,True
+PU,12,True
+MgZn,12,True
+MgY,12,True
+MgAl,12,True
+HCP,12,True
+FeC,12,True
+Fe3O4,12,True
+Fe2O3,12,True
+AlZnMgCu,12,True
+Al3Sc,12,True
+yttria stabilized zirconia,11,True
+ultrafine grained material,11,True
+trip effect,11,True
+total elongation,11,True
+tissue engineering,11,True
+ti6al4v alloy,11,True
+thermal gradient,11,True
+tensile modulus,11,True
+temperature range,11,True
+surface treatment,11,True
+superplastic deformation,11,True
+stress state,11,True
+strain induced martensite,11,True
+solution heat treatment,11,True
+sic particle,11,True
+rolling texture,11,True
+portland cement,11,True
+porous structure,11,True
+polymethyl methacrylate,11,True
+polylactic acid,11,True
+plastic flow,11,True
+phase field,11,True
+numerical model,11,True
+nitrogen atmosphere,11,True
+microstructure formation,11,True
+microstructure characterization,11,True
+microstructural investigation,11,True
+matrix alloy,11,True
+martensite lath,11,True
+loading rate,11,True
+laser shock peening,11,True
+isothermal hot compression test,11,True
+in situ composite,11,True
+hot compression,11,True
+high energy ball milling,11,True
+grain size reduction,11,True
+grain morphology,11,True
+fine precipitate,11,True
+elongation at break,11,True
+dislocation climb,11,True
+dislocation cell,11,True
+diffusion coefficient,11,True
+diffusion bonding,11,True
+deformation condition,11,True
+creep deformation,11,True
+corrosion property,11,True
+copper matrix,11,True
+computer simulation,11,True
+coherent precipitate,11,True
+ceramic matrix composite,11,True
+cellular structure,11,True
+carbon fibre,11,True
+bulk modulus,11,True
+bending strength,11,True
+automotive application,11,True
+austenite phase,11,True
+as cast condition,11,True
+artificial aging,11,True
+argon atmosphere,11,True
+aqueous solution,11,True
+amorphous phase,11,True
+aging treatment,11,True
+SOFC,11,True
+Ni3Al,11,True
+H2O,11,True
+Fe2Al5,11,True
+CPTi,11,True
+BN,11,True
+AlSiC,11,True
+x ray spectroscopy,10,True
+x ray diffractometer,10,True
+welding parameter,10,True
+wear test,10,True
+viscoelastic property,10,True
+thermodynamic calculation,10,True
+thermal history,10,True
+thermal annealing,10,True
+texture development,10,True
+tensile sample,10,True
+subgrain boundary,10,True
+stress field,10,True
+strength increase,10,True
+strain amplitude,10,True
+solute atom,10,True
+simple shear,10,True
+sigma phase,10,True
+self propagating high temperature synthesis,10,True
+seebeck coefficient,10,True
+rolling temperature,10,True
+residual stress field,10,True
+residual stress distribution,10,True
+recrystallization temperature,10,True
+quenching and partitioning,10,True
+processing parameter,10,True
+process parameter,10,True
+precipitation behavior,10,True
+plasma sprayed coating,10,True
+pinning effect,10,True
+particulate reinforcement,10,True
+nanocrystalline metal,10,True
+microstructural effect,10,True
+mechanical property improvement,10,True
+mechanical milling,10,True
+mechanical characteristic,10,True
+matrix material,10,True
+martensite phase,10,True
+low angle grain boundary,10,True
+liquidus temperature,10,True
+laser sintering,10,True
+kinetic model,10,True
+ionic conductivity,10,True
+interfacial microstructure,10,True
+interfacial debonding,10,True
+industrial application,10,True
+hysteresis loop,10,True
+high temperature deformation,10,True
+grain boundary precipitate,10,True
+gas tungsten arc welding,10,True
+energy dispersive x ray analysis,10,True
+electron backscattering diffraction,10,True
+dislocation movement,10,True
+differential scanning calorimeter,10,True
+dendritic structure,10,True
+dendrite arm spacing,10,True
+deformation texture,10,True
+crystallization temperature,10,True
+crystalline material,10,True
+crack nucleation,10,True
+corrosion rate,10,True
+continuous dynamic recrystallization,10,True
+constitutive model,10,True
+computed tomography,10,True
+compressive yield strength,10,True
+compression strength,10,True
+ceramic material,10,True
+carbide formation,10,True
+c axis,10,True
+bulk material,10,True
+bulk density,10,True
+binary alloy,10,True
+bimodal microstructure,10,True
+basal plane,10,True
+aluminium powder,10,True
+aluminium composite,10,True
+alloying addition,10,True
+aging time,10,True
+aging temperature,10,True
+age hardening response,10,True
+TiAl3,10,True
+SHPB,10,True
+PF,10,True
+Mo5Si3,10,True
+KIC,10,True
+HVOF,10,True
+Cr2O3,10,True
+CSH,10,True
+AlSiMg,10,True
+3d printing,10,True
+x ray powder diffraction,9,True
+water absorption,9,True
+void nucleation,9,True
+void growth,9,True
+void formation,9,True
+ultrafine grained alloy,9,True
+tool steel,9,True
+titanium matrix composite,9,True
+thermoelectric property,9,True
+thermally grown oxide,9,True
+thermal diffusivity,9,True
+thermal cycle,9,True
+tension test,9,True
+synchrotron x ray diffraction,9,True
+surface layer,9,True
+superplastic behavior,9,True
+stress strain response,9,True
+stress distribution,9,True
+squeeze casting,9,True
+solidification rate,9,True
+solar cell,9,True
+sol gel,9,True
+silver nanoparticle,9,True
+silicon content,9,True
+shear rate,9,True
+shear band formation,9,True
+shape memory property,9,True
+self diffusion,9,True
+rapid solidification,9,True
+pure titanium,9,True
+prior austenite grain size,9,True
+pressureless sintering,9,True
+precipitate growth,9,True
+phase transformation temperature,9,True
+phase evolution,9,True
+particle morphology,9,True
+particle dispersion,9,True
+orowan strengthening,9,True
+numerical analysis,9,True
+nuclear magnetic resonance,9,True
+nickel titanium shape memory alloy,9,True
+monoclinic phase,9,True
+moisture content,9,True
+microstructure characteristic,9,True
+microstructural study,9,True
+microstructural stability,9,True
+mechanical characterization,9,True
+mean stress,9,True
+matrix strength,9,True
+martensitic transformation temperature,9,True
+martensitic stainless steel,9,True
+magnetron sputtering,9,True
+local structure,9,True
+liquid phase,9,True
+liquid phase sintering,9,True
+liquid aluminium,9,True
+lattice strain,9,True
+laser welding,9,True
+laser cladding,9,True
+johnson cook model,9,True
+intermetallic formation,9,True
+intermetallic compound layer,9,True
+interfacial property,9,True
+impact energy,9,True
+high temperature strength,9,True
+high temperature creep,9,True
+high strength alloy,9,True
+heterogeneous nucleation,9,True
+heat treated alloy,9,True
+hall petch effect,9,True
+fracture property,9,True
+focused ion beam,9,True
+extruded magnesium alloy,9,True
+elemental analysis,9,True
+electrophoretic deposition,9,True
+electron beam welding,9,True
+electron back scatter diffraction,9,True
+electrochemical behavior,9,True
+electrical resistance,9,True
+dynamic material model,9,True
+dissolution rate,9,True
+curie temperature,9,True
+crystal plasticity,9,True
+copper alloy,9,True
+compressive loading,9,True
+commercially pure titanium,9,True
+commercial purity aluminium,9,True
+chemical property,9,True
+charpy impact test,9,True
+cement paste,9,True
+catalytic activity,9,True
+boron addition,9,True
+bond strength,9,True
+basal slip,9,True
+arc melting,9,True
+aluminium sheet,9,True
+alloy microstructure,9,True
+acicular ferrite,9,True
+SnAgCu,9,True
+NiO,9,True
+Na2SO4,9,True
+Na2O,9,True
+NH3,9,True
+HCl,9,True
+CuO,9,True
+Cu2O,9,True
+CoCrFeMnNi,9,True
+CaOH2,9,True
+CNF,9,True
+AlZnMg,9,True
+x ray diffraction pattern,8,True
+x ray computed tomography,8,True
+welded joint,8,True
+weld nugget,8,True
+weibull statistic,8,True
+wear debris,8,True
+water quenching,8,True
+vacuum sintering,8,True
+twip steel,8,True
+twin formation,8,True
+tic particle,8,True
+thermomechanical treatment,8,True
+thermo mechanical processing,8,True
+thermal effect,8,True
+tensile yield,8,True
+surface finish,8,True
+surface energy,8,True
+stretch formability,8,True
+stress strain relationship,8,True
+stress amplitude,8,True
+size effect,8,True
+silicon particle,8,True
+silica nanoparticle,8,True
+shear deformation,8,True
+rotational speed,8,True
+relative humidity,8,True
+recrystallization behavior,8,True
+reactive diffusion,8,True
+raman spectra,8,True
+pulsed laser deposition,8,True
+protective coating,8,True
+precipitation process,8,True
+powder mixture,8,True
+post weld heat treatment,8,True
+pore formation,8,True
+polygonal ferrite,8,True
+polyethylene glycol,8,True
+plastic deformation behavior,8,True
+pitting corrosion,8,True
+physical model,8,True
+phase morphology,8,True
+particle stimulated nucleation,8,True
+oxygen partial pressure,8,True
+oxide layer,8,True
+orientation imaging microscopy,8,True
+organic solvent,8,True
+open circuit voltage,8,True
+nucleation rate,8,True
+nucleation and growth,8,True
+nickel titanium alloy,8,True
+nanostructured material,8,True
+nanocrystalline nickel,8,True
+morphological property,8,True
+microstructural examination,8,True
+microstructural coarsening,8,True
+melt spinning,8,True
+material flow,8,True
+martensite structure,8,True
+low density,8,True
+low alloy steel,8,True
+liquid metal,8,True
+laser engineered net shaping,8,True
+lamellar microstructure,8,True
+isothermal compression test,8,True
+isothermal annealing,8,True
+intermetallic particle,8,True
+intergranular corrosion,8,True
+interfacial layer,8,True
+interfacial adhesion,8,True
+implant material,8,True
+impact strength,8,True
+high temperature synthesis,8,True
+high strain rate superplasticity,8,True
+high resolution electron microscopy,8,True
+high purity aluminium,8,True
+heat treatment condition,8,True
+hardness test,8,True
+grain coarsening,8,True
+glass transition,8,True
+fly ash,8,True
+flow stress behavior,8,True
+flow instability,8,True
+flexural property,8,True
+fibre reinforcement,8,True
+fibre diameter,8,True
+fiber reinforcement,8,True
+fatigue damage,8,True
+external pressure,8,True
+eutectic phase,8,True
+epoxy nanocomposite,8,True
+epoxy composite,8,True
+energy consumption,8,True
+electron probe microanalysis,8,True
+electron energy loss spectroscopy,8,True
+electric field,8,True
+dynamic strain aging,8,True
+ductility enhancement,8,True
+dislocation loop,8,True
+dislocation arrangement,8,True
+discontinuous dynamic recrystallization,8,True
+diglycidyl ether of bisphenol a,8,True
+dielectric response,8,True
+deposition rate,8,True
+densification behavior,8,True
+damage mechanism,8,True
+damage evolution,8,True
+crystallization kinetic,8,True
+cryogenic treatment,8,True
+cross slip,8,True
+critical resolved shear stress,8,True
+creep mechanism,8,True
+crack growth resistance,8,True
+compression testing,8,True
+closed cell aluminium foam,8,True
+chemical stability,8,True
+chemical analysis,8,True
+cast aluminium alloy,8,True
+carbon nanofiber,8,True
+calcium addition,8,True
+burgers vector,8,True
+brittle material,8,True
+band gap,8,True
+backscatter diffraction,8,True
+austenite grain,8,True
+austenite formation,8,True
+analytical model,8,True
+amorphous structure,8,True
+aluminium silicon alloy,8,True
+aluminium addition,8,True
+additive manufacturing technique,8,True
+acoustic emission,8,True
+TiNiCu,8,True
+PH,8,True
+NiMnGa,8,True
+MgZn2,8,True
+Mg2Sn,8,True
+ICP,8,True
+HIC,8,True
+GaN,8,True
+FS,8,True
+CuZn,8,True
+Cu6Sn5,8,True
+CP,8,True
+B2O3,8,True
+AlSiCu,8,True
+AlCuMg,8,True
+Al4C3,8,True
+Al3Mg2,8,True
+zirconium addition,7,True
+x ray diffraction technique,7,True
+wrought alloy,7,True
+wide angle x ray diffraction,7,True
+welding process,7,True
+weight loss,7,True
+water content,7,True
+ultrafine grained microstructure,7,True
+tribological behavior,7,True
+transient liquid phase bonding,7,True
+transgranular fracture,7,True
+tio2 nanoparticle,7,True
+threshold stress,7,True
+thermo mechanically affected zone,7,True
+thermal degradation,7,True
+tensile residual stress,7,True
+temperature dependence,7,True
+syntactic foam,7,True
+surface integrity,7,True
+superplastic ductility,7,True
+supercooled liquid region,7,True
+structural feature,7,True
+structural evolution,7,True
+stress strain,7,True
+statistical analysis,7,True
+spinodal decomposition,7,True
+specific strength,7,True
+spatial distribution,7,True
+solvus temperature,7,True
+solidification process,7,True
+solid electrolyte,7,True
+small angle neutron scattering,7,True
+slow strain rate test,7,True
+shape memory,7,True
+sessile drop method,7,True
+selective laser melting slm,7,True
+saturation magnetization,7,True
+rietveld refinement,7,True
+rhombohedral phase,7,True
+reverse transformation,7,True
+reduced graphene oxide,7,True
+recrystallization mechanism,7,True
+reaction mechanism,7,True
+rapid prototyping,7,True
+prior austenite grain,7,True
+precipitation strengthening,7,True
+powder metallurgy route,7,True
+porous material,7,True
+pore distribution,7,True
+polyvinyl alcohol,7,True
+polyethylene terephthalate,7,True
+plasma sprayed thermal barrier coating,7,True
+planetary ball mill,7,True
+physical vapor deposition,7,True
+phase transformation behavior,7,True
+phase equilibrium,7,True
+phase boundary,7,True
+percolation threshold,7,True
+pearlitic steel,7,True
+peak hardness,7,True
+peak efficiency,7,True
+particulate composite,7,True
+particle formation,7,True
+partial dislocation,7,True
+oxide scale,7,True
+oxide film,7,True
+oxidation rate,7,True
+nucleation mechanism,7,True
+nickel based alloy,7,True
+natural aging,7,True
+nano indentation,7,True
+multiwalled carbon nanotube,7,True
+mossbauer spectroscopy,7,True
+morphological change,7,True
+microstructure analysis,7,True
+microstructural parameter,7,True
+metadynamic recrystallization,7,True
+mechanical analysis,7,True
+mean grain size,7,True
+mean free path,7,True
+material constant,7,True
+martensite volume fraction,7,True
+magnetic nanoparticle,7,True
+magnetic measurement,7,True
+magnesium matrix,7,True
+machine learning,7,True
+local mechanical property,7,True
+load transfer,7,True
+load bearing capacity,7,True
+lattice diffusion,7,True
+lath martensite,7,True
+laser beam welding,7,True
+ion beam,7,True
+internal friction,7,True
+interfacial reaction,7,True
+interfacial energy,7,True
+hyperbolic sine equation,7,True
+hydrogen induced cracking,7,True
+high hardness,7,True
+high density polyethylene,7,True
+heterogeneous microstructure,7,True
+heat transfer,7,True
+growth rate,7,True
+grain rotation,7,True
+gold nanoparticle,7,True
+fused filament fabrication,7,True
+functional material,7,True
+freeze drying,7,True
+fracture surface observation,7,True
+fracture morphology,7,True
+fracture mechanic,7,True
+fourier transform,7,True
+flow softening,7,True
+flow curve,7,True
+flexural modulus,7,True
+fine grain size,7,True
+ferroelectric property,7,True
+fcc metal,7,True
+failure strain,7,True
+face centered cubic,7,True
+extrusion ratio,7,True
+extrusion process,7,True
+extrusion direction,7,True
+eutectic structure,7,True
+elongation to fracture,7,True
+elongated grain,7,True
+elemental powder,7,True
+electronic industry,7,True
+electron beam,7,True
+electromagnetic stirring,7,True
+electrode material,7,True
+distilled water,7,True
+dislocation mobility,7,True
+dislocation annihilation,7,True
+dislocation accumulation,7,True
+diffusion barrier,7,True
+deformed sample,7,True
+cyclic hardening,7,True
+current density,7,True
+cross section,7,True
+creep rupture strength,7,True
+corrosion potential,7,True
+copper substrate,7,True
+continuous cooling,7,True
+computational modeling,7,True
+composite structure,7,True
+cold working,7,True
+cobalt precipitation method,7,True
+coating thickness,7,True
+cellulose nanocrystal,7,True
+cellular material,7,True
+cast alloy,7,True
+carbon steel,7,True
+carbon concentration,7,True
+building direction,7,True
+bonding strength,7,True
+body fluid,7,True
+bioactive glass,7,True
+bcc metal,7,True
+base metal,7,True
+basal pole,7,True
+bainitic ferrite,7,True
+az91 magnesium alloy,7,True
+az91 alloy,7,True
+az31b magnesium alloy,7,True
+az31 alloy,7,True
+austenite stability,7,True
+atom probe,7,True
+as extruded alloy,7,True
+as cast microstructure,7,True
+artificial neural network,7,True
+antibacterial property,7,True
+antibacterial activity,7,True
+aluminium nitride,7,True
+aluminium alloy microstructure,7,True
+alloy design,7,True
+aging effect,7,True
+advanced high strength steel,7,True
+activation volume,7,True
+abnormal grain growth,7,True
+WCCo,7,True
+TiO3,7,True
+Ti5Si3,7,True
+SrTiO3,7,True
+SnO2,7,True
+SiO,7,True
+PBS,7,True
+P2O5,7,True
+H2S,7,True
+H2O2,7,True
+GaAs,7,True
+Fe3Al,7,True
+FC,7,True
+CuCrZr,7,True
+CaCO3,7,True
+AlNi,7,True
+AlLi,7,True
+Al3Zr,7,True
+Al12Mg17,7,True
+xrd analysis,6,True
+x ray microtomography,6,True
+x ray diffraction measurement,6,True
+x ray analysis,6,True
+whisker reinforcement,6,True
+wetting behavior,6,True
+weibull distribution,6,True
+vacuum hot pressing,6,True
+ultrasonic vibration,6,True
+ultrafine grained structure,6,True
+tungsten carbide,6,True
+transverse direction,6,True
+tool rotational speed,6,True
+titanium oxide,6,True
+tial alloy,6,True
+three dimensional atom probe,6,True
+thermodynamic modeling,6,True
+thermal shock resistance,6,True
+thermal insulation,6,True
+thermal fatigue,6,True
+ternary phase diagram,6,True
+tension compression asymmetry,6,True
+tensile mechanical property,6,True
+tensile fracture,6,True
+tensile creep,6,True
+tensile behaviour,6,True
+temperature evolution,6,True
+temperature distribution,6,True
+surface property,6,True
+surface defect,6,True
+surface characteristic,6,True
+superplastic property,6,True
+subgrain structure,6,True
+subgrain size,6,True
+structure property relationship,6,True
+stress ratio,6,True
+stress level,6,True
+strain softening,6,True
+strain rate range,6,True
+strain localization,6,True
+strain induced martensitic transformation,6,True
+strain gradient,6,True
+stir casting,6,True
+spin coating,6,True
+specific surface area,6,True
+space group,6,True
+solute content,6,True
+solidification processing,6,True
+solidification behavior,6,True
+solid state diffusion,6,True
+solid liquid interface,6,True
+solder joint,6,True
+softening mechanism,6,True
+silicon substrate,6,True
+sic nanoparticle,6,True
+short range order,6,True
+shape memory material,6,True
+serrated flow,6,True
+selective laser sintering,6,True
+selected area electron diffraction,6,True
+screw dislocation,6,True
+sapphire substrate,6,True
+rule of mixture,6,True
+rubber particle,6,True
+rheological behavior,6,True
+resolved shear stress,6,True
+reinforcement distribution,6,True
+reactive wetting,6,True
+reaction product,6,True
+reaction layer,6,True
+rare earth addition,6,True
+rapid cooling,6,True
+rapid cooling rate,6,True
+raman scattering,6,True
+quenching and tempering,6,True
+pure metal,6,True
+prismatic slip,6,True
+prior austenite grain boundary,6,True
+precipitate formation,6,True
+power dissipation,6,True
+potentiodynamic polarization,6,True
+portevin le chatelier effect,6,True
+polyvinylidene fluoride,6,True
+plastic zone,6,True
+plastic yielding,6,True
+plastic strain amplitude,6,True
+plastic property,6,True
+plastic instability,6,True
+plastic deformation mechanism,6,True
+plastic anisotropy,6,True
+plasma spray,6,True
+plane strain compression,6,True
+piezoelectric material,6,True
+piezoelectric coefficient,6,True
+phase content,6,True
+phase change,6,True
+peak temperature,6,True
+particle size effect,6,True
+particle growth,6,True
+particle fracture,6,True
+oxidation kinetic,6,True
+orthorhombic phase,6,True
+optical band gap,6,True
+normal grain growth,6,True
+nitrogen adsorption,6,True
+nickel content,6,True
+near titanium alloy,6,True
+nd:yag laser,6,True
+nanostructure formation,6,True
+nano hardness,6,True
+morphological evolution,6,True
+molar ratio,6,True
+microstructure effect,6,True
+microscopic observation,6,True
+micromechanical model,6,True
+microhardness test,6,True
+microalloying element,6,True
+micro crack,6,True
+methylene blue,6,True
+metallurgical bonding,6,True
+metallic material,6,True
+metallic foam,6,True
+metal substrate,6,True
+metal alloy,6,True
+melt processing,6,True
+melt pool,6,True
+medical device,6,True
+medical application,6,True
+mechanical stress,6,True
+mechanical resistance,6,True
+material characterization,6,True
+martensitic microstructure,6,True
+martensite start temperature,6,True
+martensite morphology,6,True
+maraging steel,6,True
+magnesium matrix composite,6,True
+m6 carbide,6,True
+m23c6 carbide,6,True
+liquid nitrogen temperature,6,True
+layered material,6,True
+lattice structure,6,True
+lattice mismatch,6,True
+laser peening,6,True
+large strain,6,True
+isothermal treatment,6,True
+isothermal compression,6,True
+isothermal aging,6,True
+internal strain,6,True
+interfacial interaction,6,True
+interfacial bonding strength,6,True
+interface microstructure,6,True
+intercritical annealing,6,True
+inkjet printing,6,True
+indentation load,6,True
+indentation hardness,6,True
+in situ formation,6,True
+impact loading,6,True
+icosahedral phase,6,True
+hydrothermal synthesis,6,True
+hot workability,6,True
+hopkinson pressure bar,6,True
+high temperature oxidation,6,True
+high temperature mechanical property,6,True
+heat treated condition,6,True
+heat capacity,6,True
+hardness value,6,True
+hardness increase,6,True
+grain shape,6,True
+grain refiner,6,True
+grain growth kinetic,6,True
+grain formation,6,True
+grain boundary structure,6,True
+grain boundary pinning,6,True
+grain boundary mobility,6,True
+grain boundary migration,6,True
+grain boundary energy,6,True
+glass forming ability,6,True
+gas turbine engine,6,True
+fracture path,6,True
+flow localization,6,True
+finite element,6,True
+fine grain,6,True
+film thickness,6,True
+ferritic stainless steel,6,True
+external magnetic field,6,True
+equal channel angular extrusion ecae,6,True
+epitaxial growth,6,True
+entropy alloy,6,True
+energy storage,6,True
+electrochemical performance,6,True
+effective strain,6,True
+ebsd analysis,6,True
+dynamic loading,6,True
+dynamic behavior,6,True
+draw ratio,6,True
+dislocation dynamic,6,True
+discrete element method,6,True
+diffraction pattern,6,True
+deposition condition,6,True
+density functional theory calculation,6,True
+deformed microstructure,6,True
+defect structure,6,True
+decomposition temperature,6,True
+damage tolerance,6,True
+cyclic voltammetry,6,True
+cyclic stress strain curve,6,True
+crystal phase,6,True
+crystal formation,6,True
+creep rupture life,6,True
+crack bridging,6,True
+corrosion current density,6,True
+copper matrix composite,6,True
+continuous recrystallization,6,True
+compressive test,6,True
+compressive deformation,6,True
+compressive behavior,6,True
+compression behavior,6,True
+coarse grained material,6,True
+cluster formation,6,True
+closed cell foam,6,True
+cleavage fracture,6,True
+chemical vapour deposition,6,True
+charge transfer,6,True
+ceramic composite,6,True
+cemented carbide,6,True
+calcium carbonate,6,True
+bulk sample,6,True
+bulk hardness,6,True
+bulk amorphous alloy,6,True
+boron carbide,6,True
+bond coat,6,True
+bisphenol a,6,True
+bending property,6,True
+basal slip system,6,True
+bainitic steel,6,True
+back stress,6,True
+austenite volume fraction,6,True
+austenite transformation,6,True
+austenite grain boundary,6,True
+annealing effect,6,True
+aluminium metal matrix composite,6,True
+aluminium alloy matrix composite,6,True
+alsi alloy,6,True
+alloy system,6,True
+alcu alloy,6,True
+air plasma spraying,6,True
+air cooling,6,True
+additive manufacturing technology,6,True
+ab initio calculation,6,True
+ZrC,6,True
+ZrB2SiC,6,True
+VC,6,True
+US,6,True
+TiNb,6,True
+Ti2Ni,6,True
+SN,6,True
+PVC,6,True
+PSN,6,True
+NiP,6,True
+NiFe,6,True
+NbTi,6,True
+Nb2O5,6,True
+MoS2,6,True
+MnO,6,True
+K2TiF6,6,True
+HCF,6,True
+FeTi,6,True
+FeAl3,6,True
+CrN,6,True
+CNTs,6,True
+AlTiB,6,True
+AlMgSc,6,True
+AlFe,6,True
+AlCoCrFeNi,6,True
+Al3Ti,6,True
+AgCu,6,True
+Ag3Sn,6,True
+zno nanoparticle,5,True
+zeta potential,5,True
+yttrium content,5,True
+yttrium aluminium garnet,5,True
+yttrium alloy,5,True
+young modulus,5,True
+white layer,5,True
+wetting property,5,True
+weld zone,5,True
+wear characteristic,5,True
+water molecule,5,True
+water contact angle,5,True
+wastewater treatment,5,True
+vacuum brazing,5,True
+vacuum arc melting,5,True
+unidirectional solidification,5,True
+uniaxial loading,5,True
+ultrafine grained titanium,5,True
+ultra high molecular weight polyethylene,5,True
+twin density,5,True
+transport property,5,True
+toughness property,5,True
+total strain,5,True
+torsion test,5,True
+tool rotation speed,5,True
+titanium dioxide,5,True
+titanium carbide,5,True
+titanium aluminide,5,True
+titanium 6al 4v,5,True
+tig welding,5,True
+three point bending,5,True
+thermomechanical property,5,True
+thermomechanical process,5,True
+thermodynamic stability,5,True
+thermodynamic equilibrium,5,True
+thermodynamic analysis,5,True
+thermal shock,5,True
+thermal residual stress,5,True
+thermal management,5,True
+thermal exposure,5,True
+thermal expansion mismatch,5,True
+texture intensity,5,True
+ternary alloy,5,True
+tensile stress strain curve,5,True
+tensile strengthening,5,True
+tensile experiment,5,True
+temperature gradient,5,True
+t6 heat treatment,5,True
+surface topography,5,True
+surface quality,5,True
+surface plasmon resonance,5,True
+surface chemistry,5,True
+surface analysis,5,True
+supercapacitor application,5,True
+substrate temperature,5,True
+sub grain boundary,5,True
+structural transition,5,True
+structural relaxation,5,True
+structural part,5,True
+structural parameter,5,True
+structural component,5,True
+stress redistribution,5,True
+stress intensity factor,5,True
+stress gradient,5,True
+strength to weight ratio,5,True
+strength improvement,5,True
+strength enhancement,5,True
+strain to failure,5,True
+strain rate jump test,5,True
+steady state creep rate,5,True
+sputter deposition,5,True
+split hopkinson bar,5,True
+sorption behavior,5,True
+solute concentration,5,True
+solidification structure,5,True
+solidification microstructure,5,True
+solid state amorphization,5,True
+sol gel method,5,True
+softening resistance,5,True
+soaking time,5,True
+slip band,5,True
+sintering process,5,True
+single crystal superalloy,5,True
+single crystal nickel base superalloy,5,True
+silicone oil,5,True
+silicon oxide,5,True
+shear yielding,5,True
+shear lag model,5,True
+shear banding,5,True
+shape memory behavior,5,True
+shallow cryogenic treatment,5,True
+setting time,5,True
+sessile drop,5,True
+serrated grain boundary,5,True
+semi solid state,5,True
+self propagating reaction,5,True
+selective oxidation,5,True
+secondary dendrite arm spacing,5,True
+secondary carbide,5,True
+second phase,5,True
+scanning speed,5,True
+scan rate,5,True
+rolling strain,5,True
+rolling reduction,5,True
+rolled alloy,5,True
+retained austenite stability,5,True
+resistivity measurement,5,True
+residual stress state,5,True
+reinforcement particle,5,True
+refractive index,5,True
+recrystallized grain size,5,True
+recrystallization texture,5,True
+recovery stress,5,True
+reaction rate,5,True
+rapid heating,5,True
+ram speed,5,True
+quenching temperature,5,True
+quasi static loading,5,True
+pull out,5,True
+pressure infiltration,5,True
+premature failure,5,True
+precipitation sequence,5,True
+precipitate coarsening,5,True
+power factor,5,True
+powder metallurgy method,5,True
+positron annihilation,5,True
+porosity reduction,5,True
+polyurethane foam,5,True
+polymer chain,5,True
+polybutylene terephthalate,5,True
+plateau stress,5,True
+pitting corrosion resistance,5,True
+pipeline steel,5,True
+piezoelectric response,5,True
+physicochemical characterization,5,True
+physical mechanism,5,True
+phase transformation kinetic,5,True
+phase change material,5,True
+perovskite phase,5,True
+penetration depth,5,True
+pearlite formation,5,True
+peak strength,5,True
+peak profile analysis,5,True
+passive film,5,True
+particle volume fraction,5,True
+particle pinning,5,True
+particle diameter,5,True
+oxidation effect,5,True
+optoelectronic application,5,True
+optical absorption,5,True
+open circuit potential,5,True
+open cell foam,5,True
+nucleating agent,5,True
+normal direction,5,True
+nitrogen gas,5,True
+nickel coating,5,True
+nickel base alloy,5,True
+nickel alloy,5,True
+neutron scattering,5,True
+near surface microstructure,5,True
+natural rubber,5,True
+nanostructured aluminium alloy,5,True
+nanostructured alloy,5,True
+nanocrystalline structure,5,True
+nanocrystalline powder,5,True
+nanocrystalline copper,5,True
+nacl solution,5,True
+multicomponent alloy,5,True
+moscovium carbide,5,True
+morphotropic phase boundary,5,True
+monotonic loading,5,True
+monolithic material,5,True
+molten metal,5,True
+modified johnson cook model,5,True
+moderate temperature,5,True
+minimum creep rate,5,True
+microstructure property relationship,5,True
+microstructural variation,5,True
+microstructural homogeneity,5,True
+microstructural control,5,True
+microcrack formation,5,True
+micro structure,5,True
+mgzn alloy,5,True
+metallographic technique,5,True
+metallographic observation,5,True
+metallic alloy,5,True
+metal powder,5,True
+mesoscopic scale,5,True
+mechanochemical synthesis,5,True
+mechanical twin,5,True
+mechanical surface treatment,5,True
+mechanical property enhancement,5,True
+maxwell model,5,True
+matrix strengthening,5,True
+matrix microstructure,5,True
+matrix cracking,5,True
+master alloy,5,True
+mass loss,5,True
+martensitic phase,5,True
+martensite microstructure,5,True
+magnesium based alloy,5,True
+magnesium addition,5,True
+macroscopic property,5,True
+low temperature annealing,5,True
+low strain rate,5,True
+local strain,5,True
+liquid nitrogen,5,True
+lattice rotation,5,True
+lattice distortion,5,True
+lattice defect,5,True
+laser surface melting,5,True
+laser shock processing,5,True
+laser deposition,5,True
+laser beam,5,True
+laser ablation,5,True
+large deformation,5,True
+joint strength,5,True
+isothermal solidification,5,True
+iron oxide nanoparticle,5,True
+iron based alloy,5,True
+interstitial site,5,True
+intermetallic alloy,5,True
+interlaminar shear strength,5,True
+interatomic potential,5,True
+inert atmosphere,5,True
+in situ,5,True
+in situ reaction,5,True
+in situ observation,5,True
+in situ neutron diffraction,5,True
+hydroxyl group,5,True
+hydrostatic extrusion,5,True
+hydrogen content,5,True
+hot forging,5,True
+homologous temperature,5,True
+hollow sphere,5,True
+high velocity oxy fuel,5,True
+high temperature property,5,True
+high strength low alloy steel,5,True
+high resolution transmission electron microscope,5,True
+high resolution tem,5,True
+high ductility,5,True
+high dislocation density,5,True
+hardness distribution,5,True
+guinier preston zone,5,True
+grain size refinement,5,True
+grain interior,5,True
+grain distribution,5,True
+grain boundary engineering,5,True
+grain boundary cracking,5,True
+grain boundary character distribution,5,True
+glass fibre reinforcement,5,True
+glass ceramic,5,True
+ftir spectroscopy,5,True
+fracture process,5,True
+fracture analysis,5,True
+fractal dimension,5,True
+force microscopy,5,True
+fluid flow,5,True
+flexural test,5,True
+finite element software,5,True
+fine particle,5,True
+fibre direction,5,True
+fibre composite,5,True
+fiber reinforced composite,5,True
+ferrite grain size,5,True
+fatigue testing,5,True
+fatigue lifetime,5,True
+failure behavior,5,True
+face centered cubic phase,5,True
+extruded az31 magnesium alloy,5,True
+external stress,5,True
+explosive welding,5,True
+equivalent strain,5,True
+equal channel angular pressed,5,True
+energy density,5,True
+energy absorption capacity,5,True
+electronic device,5,True
+electronic conductivity,5,True
+electron spectroscopy,5,True
+electron channeling contrast imaging,5,True
+electron back scattering diffraction,5,True
+electromechanical property,5,True
+electrochemical test,5,True
+electrochemical etching,5,True
+electrical resistivity measurement,5,True
+elastic strain energy,5,True
+dynamic strain ageing,5,True
+dynamic precipitation,5,True
+drug release,5,True
+drug delivery system,5,True
+domain structure,5,True
+dislocation wall,5,True
+dislocation strengthening,5,True
+dislocation model,5,True
+dislocation line,5,True
+dislocation core,5,True
+dislocation cell structure,5,True
+dislocation boundary,5,True
+dimensional stability,5,True
+diffusion mechanism,5,True
+differential speed rolling,5,True
+dielectric spectroscopy,5,True
+dielectric measurement,5,True
+die cast alloy,5,True
+die angle,5,True
+deposition temperature,5,True
+density increase,5,True
+density gradient,5,True
+deformed grain,5,True
+deformation localization,5,True
+deep cryogenic treatment,5,True
+cyclic behavior,5,True
+cubic phase,5,True
+cube texture,5,True
+crystallographic slip,5,True
+crystallographic feature,5,True
+crystallization behavior,5,True
+crystal plasticity model,5,True
+critical temperature,5,True
+critical stress intensity factor,5,True
+critical grain size,5,True
+creep strain,5,True
+creep damage,5,True
+copper content,5,True
+constitutive relationship,5,True
+constitutive modeling,5,True
+constitutive behavior,5,True
+compressive modulus,5,True
+commercial aluminium alloy,5,True
+columnar grain structure,5,True
+cold treatment,5,True
+cold rolled steel,5,True
+coefficient of friction,5,True
+cobalt precipitation,5,True
+coating property,5,True
+coarsening rate,5,True
+coarse particle,5,True
+coarse grained heat affected zone,5,True
+chromium addition,5,True
+chemical structure,5,True
+charge carrier,5,True
+ceramic reinforcement,5,True
+ceramic powder,5,True
+ceramic particle,5,True
+ceramic coating,5,True
+cementite precipitation,5,True
+carrier mobility,5,True
+carbothermal reduction,5,True
+carbon fibre reinforcement,5,True
+carbon fiber reinforcement,5,True
+calcium silicate hydrate,5,True
+build direction,5,True
+brittle transition temperature,5,True
+brittle failure,5,True
+brittle ductile transition,5,True
+brazed joint,5,True
+boundary spacing,5,True
+bombyx mori,5,True
+biomedical titanium alloy,5,True
+bauschinger effect,5,True
+base material,5,True
+basal plane texture,5,True
+barrier property,5,True
+barium titanate,5,True
+band structure,5,True
+bainite transformation,5,True
+bainite formation,5,True
+bacterial cellulose,5,True
+back scattered diffraction,5,True
+back pressure,5,True
+austenite decomposition,5,True
+atmospheric plasma spraying,5,True
+as cast,5,True
+artificial ageing,5,True
+applied load,5,True
+annealing twin,5,True
+annealing treatment,5,True
+annealing process,5,True
+annealed alloy,5,True
+analytical modeling,5,True
+aluminium microstructure,5,True
+aging process,5,True
+aging behavior,5,True
+ageing temperature,5,True
+aerospace component,5,True
+advancing side,5,True
+adsorption capacity,5,True
+adhesion strength,5,True
+additive manufacturing process,5,True
+absorption coefficient,5,True
+abrasive wear,5,True
+ZrN,5,True
+Ti3SiC2,5,True
+TaC,5,True
+Ta2O5,5,True
+SnAg,5,True
+SF,5,True
+PbMg1,5,True
+PS,5,True
+PC,5,True
+NiTi2,5,True
+NiCrAlY,5,True
+Ni3Ti,5,True
+Ni2Si,5,True
+NaOH,5,True
+NO,5,True
+NC,5,True
+MnB5,5,True
+MgZnY,5,True
+MgAlZn,5,True
+LiF,5,True
+KBF4,5,True
+Fe2B,5,True
+Cu3Sn,5,True
+CoCrFeNiMn,5,True
+CdS,5,True
+CaF2,5,True
+CaCl2,5,True
+CF,5,True
+AlMgSiCu,5,True
+AlMg2Si,5,True
+Al6Mn,5,True
+Al3Ni,5,True
+Al2Cu,5,True
+AgCl,5,True
+zk60 alloy,4,True
+zinc oxide,4,True
+zinc content,4,True
+yttrium addition,4,True
+x ray diffraction method,4,True
+wrought material,4,True
+wrought magnesium alloy,4,True
+wrought aluminium alloy,4,True
+woven fabric,4,True
+work of fracture,4,True
+wood cell wall,4,True
+williamson hall method,4,True
+welding condition,4,True
+weld joint,4,True
+wear surface,4,True
+wear mechanism,4,True
+water vapour,4,True
+water uptake,4,True
+wall thickness,4,True
+volume fraction,4,True
+viscous flow,4,True
+variant selection,4,True
+vacancy concentration,4,True
+uv irradiation,4,True
+ultrasonic liquid processor,4,True
+ultrafine grained aluminium,4,True
+ultrafine grained aluminium alloy,4,True
+ultrafine grain size,4,True
+ultra high strength steel,4,True
+ultra fine grained structure,4,True
+ultra fine grain,4,True
+twin screw extruder,4,True
+trip assisted steel,4,True
+tribochemical reaction,4,True
+transient liquid phase,4,True
+total strain amplitude,4,True
+titanium substrate,4,True
+titanium alloy powder,4,True
+titanium addition,4,True
+tinni shape memory alloy,4,True
+tib2 particle,4,True
+three point bending test,4,True
+thermomechanically affected zone,4,True
+thermomechanical behavior,4,True
+thermomechanical analysis,4,True
+thermo mechanical treatment,4,True
+thermo mechanical property,4,True
+thermal spraying,4,True
+thermal spray,4,True
+thermal processing,4,True
+thermal mismatch,4,True
+thermal hysteresis,4,True
+thermal gravimetric analysis,4,True
+thermal expansion property,4,True
+thermal evolution,4,True
+thermal energy,4,True
+thermal barrier system,4,True
+thermal aging,4,True
+tga analysis,4,True
+textural property,4,True
+tetragonal structure,4,True
+tensile response,4,True
+tensile performance,4,True
+tensile deformation behavior,4,True
+tensile axis,4,True
+tempered martensite,4,True
+taylor model,4,True
+synchrotron x ray tomography,4,True
+surface structure,4,True
+surface nanocrystallization,4,True
+surface mechanical attrition treatment,4,True
+surface hardness,4,True
+surface functionalization,4,True
+surface effect,4,True
+surface condition,4,True
+supersaturated solid solution,4,True
+superplastic forming,4,True
+superplastic flow,4,True
+superplastic elongation,4,True
+superparamagnetic behavior,4,True
+superelastic behavior,4,True
+supercooled liquid,4,True
+superaustenitic stainless steel,4,True
+sulphuric acid,4,True
+structure formation,4,True
+structural defect,4,True
+structural analysis,4,True
+stress relief,4,True
+stress induced martensitic transformation,4,True
+stress dependence,4,True
+strengthening precipitate,4,True
+strength property,4,True
+strength and ductility,4,True
+strain sensor,4,True
+strain path change,4,True
+strain induced transformation,4,True
+strain induced precipitation,4,True
+strain energy,4,True
+strain anisotropy,4,True
+stirring speed,4,True
+steel substrate,4,True
+steel alloy,4,True
+steady state creep,4,True
+staphylococcus aureus,4,True
+stainless steel substrate,4,True
+stainless steel fibre,4,True
+spray casting,4,True
+spot weld,4,True
+spherical shape,4,True
+spectral analysis,4,True
+spark plasma sintering process,4,True
+space application,4,True
+solution treated,4,True
+solution treated alloy,4,True
+solution temperature,4,True
+solution casting,4,True
+solubility of hydrogen,4,True
+solidus temperature,4,True
+solidification time,4,True
+solidification parameter,4,True
+solidification condition,4,True
+solid state,4,True
+solid state temperature,4,True
+solid state sintering,4,True
+solid state bonding,4,True
+solid solution phase,4,True
+solid solution hardening,4,True
+solid solution alloy,4,True
+solid fraction,4,True
+sol gel process,4,True
+softening behavior,4,True
+soft magnetic property,4,True
+smart material,4,True
+slip plane,4,True
+sliding wear,4,True
+sliding velocity,4,True
+sliding speed,4,True
+single walled carbon nanotube,4,True
+single crystal nickel based superalloy,4,True
+silicon wafer,4,True
+silicon carbide reinforcement,4,True
+silicon carbide particulate,4,True
+silane coupling agent,4,True
+shot sleeve,4,True
+shock peening,4,True
+sheet resistance,4,True
+shear plane,4,True
+shape recovery,4,True
+shape memory response,4,True
+severe plastic deformation method,4,True
+sessile drop technique,4,True
+sessile drop experiment,4,True
+sem image,4,True
+self healing,4,True
+self assembly,4,True
+selective melting,4,True
+selective electron beam melting,4,True
+sample size,4,True
+salt bath,4,True
+rutherford backscattering spectrometry,4,True
+room temperature ductility,4,True
+rolling deformation,4,True
+roll bonding,4,True
+rigid polyurethane foam,4,True
+response surface methodology,4,True
+resonant ultrasound spectroscopy,4,True
+resistance spot welding,4,True
+resistance spot weld,4,True
+resin transfer molding,4,True
+residual porosity,4,True
+refractory high entropy alloy,4,True
+recrystallized structure,4,True
+reactive oxygen species,4,True
+raw material,4,True
+rapid quenching,4,True
+rapid manufacturing,4,True
+quenching partitioning tempering,4,True
+quasicrystalline phase,4,True
+quasi static compression,4,True
+pyroelectric property,4,True
+pure nickel,4,True
+pure aluminium alloy,4,True
+proof strength,4,True
+processing route,4,True
+prior grain size,4,True
+pressure bar,4,True
+precipitate size,4,True
+precipitate morphology,4,True
+pre strain,4,True
+power dissipation efficiency,4,True
+powder morphology,4,True
+powder metallurgy technique,4,True
+powder bed fusion,4,True
+post treatment,4,True
+post heat treatment,4,True
+positron annihilation spectroscopy,4,True
+porous ceramic,4,True
+porosity level,4,True
+porosity formation,4,True
+pore volume,4,True
+pore shape,4,True
+pop in,4,True
+polyvinyl chloride,4,True
+polymer matrix composite,4,True
+plastic void growth,4,True
+plastic behavior,4,True
+plasma enhanced chemical vapor deposition,4,True
+plasma electrolytic oxidation,4,True
+planetary mill,4,True
+planar slip,4,True
+plain carbon steel,4,True
+pitting potential,4,True
+pipe diffusion,4,True
+photocatalytic property,4,True
+photocatalytic performance,4,True
+photocatalytic degradation,4,True
+phenolic resin,4,True
+phase growth,4,True
+phase fraction,4,True
+phase field model,4,True
+peak strain,4,True
+peak flow stress,4,True
+peak aging,4,True
+peak aged,4,True
+particle velocity,4,True
+particle temperature,4,True
+particle shape,4,True
+particle precipitation,4,True
+particle number density,4,True
+particle matrix interface,4,True
+particle coarsening,4,True
+particle boundary,4,True
+particle agglomeration,4,True
+parent material,4,True
+pair distribution function,4,True
+oxygen reduction reaction,4,True
+oxide particle,4,True
+optical observation,4,True
+optical metallography,4,True
+optical device,4,True
+open cell aluminium foam,4,True
+odc steel,4,True
+numerical study,4,True
+numerical investigation,4,True
+nucleation process,4,True
+nucleation behavior,4,True
+non metallic inclusion,4,True
+noble metal,4,True
+nitrogen partial pressure,4,True
+nitrogen doping,4,True
+nitrogen addition,4,True
+nitric acid,4,True
+niobium addition,4,True
+nickel oxide,4,True
+network formation,4,True
+nanotube reinforcement,4,True
+nanoindentation hardness,4,True
+nanocrystalline surface layer,4,True
+nanocrystalline grain,4,True
+nano sized particle,4,True
+multiwall carbon nanotube,4,True
+multi scale characterization,4,True
+multi axial forging,4,True
+morphology change,4,True
+monte carlo,4,True
+monte carlo simulation,4,True
+monoclinic structure,4,True
+molybdenum alloy,4,True
+molybdenum addition,4,True
+molten aluminium alloy,4,True
+molten alloy,4,True
+molecularly imprinted polymer,4,True
+modulus of elasticity,4,True
+modulated structure,4,True
+misorientation angle,4,True
+misfit strain,4,True
+milling time,4,True
+mild steel,4,True
+microstructure observation,4,True
+microstructural modification,4,True
+microstructural heterogeneity,4,True
+microstructural degradation,4,True
+microstructural constituent,4,True
+microscopic examination,4,True
+micro computed tomography,4,True
+mgy alloy,4,True
+mgal alloy,4,True
+metastable titanium alloy,4,True
+metallographic study,4,True
+metal nanoparticle,4,True
+metal foam,4,True
+melt temperature,4,True
+melt quenching,4,True
+mechanochemical reaction,4,True
+mechanical strain,4,True
+mechanical interfacial property,4,True
+mechanical integrity,4,True
+mechanical energy,4,True
+mechanical deformation,4,True
+mechanical activation,4,True
+maximum load,4,True
+maximum elongation,4,True
+matrix precipitate,4,True
+matrix interface,4,True
+matrix grain,4,True
+mathematical model,4,True
+material scientist,4,True
+material response,4,True
+material processing,4,True
+material model,4,True
+material microstructure,4,True
+material design,4,True
+master curve,4,True
+mass transport,4,True
+martensite austenite,4,True
+manganese addition,4,True
+magnetization measurement,4,True
+magnetic resonance,4,True
+magnetic resonance imaging,4,True
+magnetic material,4,True
+magnetic behavior,4,True
+magnesium concentration,4,True
+magnesium composite,4,True
+magnesium aluminium alloy,4,True
+low stress,4,True
+loss factor,4,True
+long period stacking ordered phase,4,True
+local solidification time,4,True
+loading frequency,4,True
+liquid state,4,True
+linear friction welding,4,True
+linear elastic fracture mechanic,4,True
+light optical microscopy,4,True
+lead free piezoelectric material,4,True
+layered structure,4,True
+layered double hydroxide,4,True
+laser scanning speed,4,True
+laser irradiation,4,True
+laser energy input,4,True
+laser energy density,4,True
+lap shear strength,4,True
+lap joint,4,True
+laminated composite,4,True
+kurdjumov sachs orientation relationship,4,True
+kernel average misorientation,4,True
+isothermal oxidation,4,True
+isothermal holding,4,True
+isotactic polypropylene,4,True
+iron oxide,4,True
+iron aluminide,4,True
+ion release,4,True
+ion implantation,4,True
+ion exchange,4,True
+interphase boundary,4,True
+internal structure,4,True
+intermediate temperature,4,True
+interlaminar fracture energy,4,True
+interfacial shear stress,4,True
+interfacial shear strength,4,True
+interfacial intermetallic compound,4,True
+interface structure,4,True
+interdendritic region,4,True
+injection molding,4,True
+infrared thermography,4,True
+infrared spectra,4,True
+infrared camera,4,True
+indentation testing,4,True
+indentation test,4,True
+indentation size effect,4,True
+inclusion size,4,True
+in situ transmission electron microscopy,4,True
+in situ tensile test,4,True
+in situ recrystallization,4,True
+in situ polymerization,4,True
+impurity effect,4,True
+improved strength,4,True
+improved mechanical property,4,True
+impression creep,4,True
+impact resistance,4,True
+impact property,4,True
+image correlation,4,True
+image analyzer,4,True
+if steel,4,True
+hyperbolic sine function,4,True
+hydrostatic stress,4,True
+hydrogen storage,4,True
+hydrogen storage material,4,True
+hydrogen diffusion,4,True
+hydrogen desorption,4,True
+hydrogen bonding,4,True
+hybrid material,4,True
+hybrid composite,4,True
+hsla steel,4,True
+hot work tool steel,4,True
+hot rolled alloy,4,True
+hot deformation activation energy,4,True
+hot corrosion,4,True
+high velocity impact,4,True
+high toughness,4,True
+high temperature stability,4,True
+high temperature phase,4,True
+high temperature material,4,True
+high temperature alloy,4,True
+high strain,4,True
+high resolution scanning transmission electron microscopy,4,True
+high resolution scanning electron microscopy,4,True
+high pressure die casting,4,True
+high energy x ray diffraction,4,True
+high energy ball mill,4,True
+heusler alloy,4,True
+heterogeneous catalyst,4,True
+heat treated microstructure,4,True
+heat treated aluminium alloy,4,True
+heat source,4,True
+heat sink,4,True
+heat resistant steel,4,True
+heat release,4,True
+heat flow,4,True
+heat deflection temperature,4,True
+heat conduction,4,True
+hardness profile,4,True
+hardened steel,4,True
+hall petch,4,True
+groove pressing,4,True
+grazing incidence x ray diffraction,4,True
+grain size strengthening,4,True
+grain size evolution,4,True
+grain size control,4,True
+grain refinement strengthening,4,True
+grain orientation spread,4,True
+grain growth behavior,4,True
+grain fragmentation,4,True
+grain boundary misorientation,4,True
+grain boundary character,4,True
+grain boundary area,4,True
+glassy phase,4,True
+glass formation,4,True
+glass fibre,4,True
+gibson ashby model,4,True
+gibbs free energy,4,True
+geometric dynamic recrystallization,4,True
+gas pressure infiltration,4,True
+gas atomized powder,4,True
+furnace cooling,4,True
+full width at half maximum,4,True
+ft iridium,4,True
+ft iridium spectroscopy,4,True
+friction stir welding parameter,4,True
+friction stir spot welding,4,True
+frequency range,4,True
+free volume,4,True
+fracture stress,4,True
+fracture behaviour,4,True
+four point bending,4,True
+formation mechanism,4,True
+foaming agent,4,True
+flow process,4,True
+flexure strength,4,True
+flame retardancy,4,True
+first principle calculation,4,True
+finite element technique,4,True
+finite element modelling,4,True
+finite element code,4,True
+fine microstructure,4,True
+filler metal,4,True
+figure of merit,4,True
+fiber diameter,4,True
+ferrite formation,4,True
+fermi level,4,True
+fatigue damage mechanism,4,True
+fatigue cracking,4,True
+fatigue characteristic,4,True
+fatigue behaviour,4,True
+extrusion texture,4,True
+extrusion temperature,4,True
+extrusion speed,4,True
+exothermic reaction,4,True
+exchange interaction,4,True
+eutectic silicon,4,True
+eutectic silicon particle,4,True
+equiaxed structure,4,True
+environmental application,4,True
+engineering material,4,True
+energy storage device,4,True
+energy input,4,True
+energy dissipation,4,True
+energy dispersive spectrometer,4,True
+empirical model,4,True
+embedded atom method,4,True
+elevated temperature strength,4,True
+elevated temperature mechanical property,4,True
+electron spin resonance,4,True
+electron backscatter,4,True
+electromagnetic shielding,4,True
+electromagnetic interference,4,True
+electrochromic device,4,True
+electrochemical technique,4,True
+electrochemical stability,4,True
+electrochemical sensor,4,True
+electrochemical potential,4,True
+electrochemical measurement,4,True
+electrochemical characterization,4,True
+electrical response,4,True
+electrical discharge machining,4,True
+electrical conductivity measurement,4,True
+electric current,4,True
+elastic deformation,4,True
+edge dislocation,4,True
+dynamic deformation,4,True
+ductile failure,4,True
+dry sliding wear,4,True
+drainage curve,4,True
+dissimilar weld,4,True
+dislocation structure evolution,4,True
+dislocation microstructure,4,True
+dislocation hardening,4,True
+dislocation generation,4,True
+dislocation evolution,4,True
+dislocation based model,4,True
+dislocation activity,4,True
+discontinuous recrystallization,4,True
+diffusion layer,4,True
+diffusion couple,4,True
+diffusion bonding technique,4,True
+diffusible hydrogen content,4,True
+dielectric strength,4,True
+dielectric loss,4,True
+die casting,4,True
+densification strain,4,True
+dendrite morphology,4,True
+deformation strain,4,True
+deformation response,4,True
+deformation induced martensite,4,True
+deformation induced martensite formation,4,True
+deformation heating,4,True
+deformation energy,4,True
+deformation behaviour,4,True
+damping capacity,4,True
+cylindrical sample,4,True
+cyclic softening,4,True
+cyclic oxidation,4,True
+cyclic extrusion compression,4,True
+cyclic deformation behavior,4,True
+cutting speed,4,True
+curing agent,4,True
+crystallographic structure,4,True
+crystallographic plane,4,True
+crystallographic orientation relationship,4,True
+crystalline solid,4,True
+crystal symmetry,4,True
+crystal grain,4,True
+critical cooling rate,4,True
+creep time,4,True
+creep rupture,4,True
+creep response,4,True
+creep cavity,4,True
+creep behaviour,4,True
+cracking resistance,4,True
+crack velocity,4,True
+crack length,4,True
+crack development,4,True
+crack coalescence,4,True
+corrosion protection,4,True
+corrosion performance,4,True
+copper oxide,4,True
+copper film,4,True
+copper coating,4,True
+coordination number,4,True
+cooling slope,4,True
+conventional material,4,True
+conventional alloy,4,True
+contour method,4,True
+constitutive law,4,True
+conjugated polymer,4,True
+configurational entropy,4,True
+computational study,4,True
+compound layer,4,True
+composite powder,4,True
+composite microstructure,4,True
+composite mechanical property,4,True
+compact tension specimen,4,True
+commercially pure aluminium,4,True
+commercial purity titanium,4,True
+combustion synthesis,4,True
+columnar to equiaxed transition,4,True
+columnar structure,4,True
+columnar microstructure,4,True
+colony size,4,True
+cold rolled sheet,4,True
+cohesive strength,4,True
+coarse grain size,4,True
+chromium content,4,True
+chromium carbide,4,True
+chemical synthesis,4,True
+chemical modification,4,True
+charpy impact toughness,4,True
+ceramic thermal barrier coating,4,True
+ceramic phase,4,True
+cement mortar,4,True
+cellular automaton,4,True
+cell viability,4,True
+cell structure,4,True
+cell proliferation,4,True
+cavity formation,4,True
+cavitation erosion,4,True
+catastrophic failure,4,True
+casting defect,4,True
+casting alloy,4,True
+carbon source,4,True
+carbon nanomaterial,4,True
+carbon fibre composite,4,True
+carbon diffusion,4,True
+carbon carbon composite,4,True
+carbon addition,4,True
+calcination temperature,4,True
+bulk alloy,4,True
+building material,4,True
+build orientation,4,True
+broadband dielectric spectroscopy,4,True
+brazing temperature,4,True
+boron nitride,4,True
+bone repair,4,True
+bone regeneration,4,True
+bonding temperature,4,True
+bonding interface,4,True
+binding energy,4,True
+beta titanium alloy,4,True
+bend test,4,True
+bcc structure,4,True
+basal fiber texture,4,True
+banded structure,4,True
+ball mill,4,True
+b2 phase,4,True
+average particle size,4,True
+austenite reverted transformation,4,True
+austenite reversion,4,True
+austenite morphology,4,True
+austenite fraction,4,True
+atomic structure,4,True
+atomic force microscope,4,True
+asymmetric rolling,4,True
+aspect ratio,4,True
+artificial weathering,4,True
+aqueous environment,4,True
+applied voltage,4,True
+applied pressure,4,True
+annealing time,4,True
+annealing condition,4,True
+amorphous material,4,True
+aluminium plate,4,True
+aluminium melt,4,True
+aluminium magnesium alloy,4,True
+aluminium lithium alloy,4,True
+aluminium layer,4,True
+aluminium content,4,True
+aluminium based composite,4,True
+aluminium alloy mechanical property,4,True
+aluminium alloy matrix,4,True
+aluminium alloy foam,4,True
+alsi10mg alloy,4,True
+alloying element distribution,4,True
+alloy strength,4,True
+alloy oxidation,4,True
+alloy formation,4,True
+alkaline solution,4,True
+alcumg alloy,4,True
+al2o3 powder,4,True
+al2o3 particle,4,True
+aisi d2 steel,4,True
+aisi 304l stainless steel,4,True
+advanced material,4,True
+adiabatic shear banding,4,True
+WS2,4,True
+WO3,4,True
+VHCF,4,True
+TiMo,4,True
+TiH2,4,True
+SrO,4,True
+SnPb,4,True
+Sn3.5Ag,4,True
+ScN,4,True
+SH,4,True
+PI,4,True
+Ni3Si,4,True
+NaH,4,True
+NP,4,True
+NO2,4,True
+MoSi,4,True
+MoO3,4,True
+Mo3Si,4,True
+MgSn,4,True
+MgSi,4,True
+MgGdYZr,4,True
+MgAl2O4,4,True
+IN625,4,True
+HS,4,True
+HP,4,True
+H2SO4,4,True
+GaSb,4,True
+FeO3,4,True
+FeO,4,True
+FeCo,4,True
+FeAl2,4,True
+CuNiSi,4,True
+CuCr,4,True
+Cr7C3,4,True
+CoO,4,True
+CoCrFeNi,4,True
+CaP,4,True
+Ca2Mg6Zn3,4,True
+CSP,4,True
+CS,4,True
+CN,4,True
+CB,4,True
+BiFeO3,4,True
+Bi2Te3,4,True
+Bi2O3,4,True
+AlTiC,4,True
+AlTi,4,True
+AlMn,4,True
+AlB2,4,True
+Al5FeSi,4,True
+Al2Ca,4,True
+Al13Fe4,4,True
+AgCuTi,4,True
+zno nanorod,3,True
+zirconium alloy,3,True
+yield point,3,True
+yield behavior,3,True
+xrd pattern,3,True
+x ray photoelectron spectrometry,3,True
+work piece,3,True
+work hardening exponent,3,True
+work hardened layer,3,True
+wire axis,3,True
+wire arc additive manufacturing,3,True
+wetting phenomenon,3,True
+wetting layer,3,True
+wet impregnation,3,True
+welding and joining,3,True
+weld seam,3,True
+weld fusion zone,3,True
+weight reduction,3,True
+weibull modulus,3,True
+wedge cracking,3,True
+wearable electronic,3,True
+wear reduction,3,True
+wear performance,3,True
+weaker texture,3,True
+wavelength range,3,True
+water vapor,3,True
+water purification,3,True
+water permeability,3,True
+warm rolling,3,True
+warm deformation,3,True
+voronoi cell,3,True
+volume diffusion,3,True
+void volume fraction,3,True
+void coalescence,3,True
+visible light irradiation,3,True
+viscoelastic behavior,3,True
+vibrating sample magnetometer,3,True
+very high cycle fatigue,3,True
+velocity gradient,3,True
+van der waal force,3,True
+vacuum annealing,3,True
+vacancy type defect,3,True
+vacancy cluster,3,True
+urea formaldehyde microcapsule,3,True
+uniaxial tensile loading,3,True
+uniaxial pressing,3,True
+uniaxial deformation,3,True
+uniaxial compression testing,3,True
+ultraviolet visible absorption spectroscopy,3,True
+ultraviolet radiation,3,True
+ultrasonic wave,3,True
+ultrasonic surface rolling process,3,True
+ultrasonic spot welding,3,True
+ultrasonic fatigue testing,3,True
+ultrafine microstructure,3,True
+ultrafine grained metal,3,True
+ultrafine grained copper,3,True
+ultra high temperature,3,True
+ultra fine grained material,3,True
+twinning system,3,True
+twinning stress,3,True
+twinning behavior,3,True
+twinning activity,3,True
+twin structure,3,True
+twin band,3,True
+tungsten phase,3,True
+tungsten oxide,3,True
+tungsten inert gas welding,3,True
+true stress strain curve,3,True
+triple point,3,True
+triple junction,3,True
+tribological performance,3,True
+transverse tensile test,3,True
+transmission electronic microscopy,3,True
+transformation kinetic,3,True
+transformation behavior,3,True
+torsional straining,3,True
+torsion deformation,3,True
+top coat,3,True
+tool geometry,3,True
+titanium matrix,3,True
+titanium c particle,3,True
+titanium b whisker,3,True
+titanium aluminide alloy,3,True
+titanium alloy ti6al4v,3,True
+tissue regeneration,3,True
+tio2 nanotube,3,True
+tio2 layer,3,True
+tio2 coating,3,True
+tin curve,3,True
+tin addition,3,True
+tic particle reinforcement,3,True
+tic composite,3,True
+tib whisker,3,True
+thickness reduction,3,True
+thermoset polymer,3,True
+thermoset composite,3,True
+thermoplastic polyurethane,3,True
+thermoplastic polymer,3,True
+thermoplastic elastomer,3,True
+thermomechanical response,3,True
+thermomechanical history,3,True
+thermohydrogen processing,3,True
+thermoelectric material,3,True
+thermoelectric application,3,True
+thermoelastic martensitic transformation,3,True
+thermodynamic property,3,True
+thermodynamic model,3,True
+thermodynamic database,3,True
+thermodynamic data,3,True
+thermo physical property,3,True
+thermo mechanical process,3,True
+thermo calc,3,True
+thermal spray coating,3,True
+thermal response,3,True
+thermal radiation,3,True
+thermal modification,3,True
+thermal method,3,True
+thermal fatigue resistance,3,True
+thermal efficiency,3,True
+thermal conditioning,3,True
+thermal condition,3,True
+thermal characterization,3,True
+thermal barrier,3,True
+thermal ageing,3,True
+thermal activation,3,True
+texture strengthening,3,True
+texture modification,3,True
+texture gradient,3,True
+texture formation,3,True
+texture effect,3,True
+texture change,3,True
+tertiary creep,3,True
+ternary system,3,True
+tensile yield stress,3,True
+tensile twin,3,True
+tensile strength increase,3,True
+tensile strength at break,3,True
+tensile straining,3,True
+tensile hydrostatic stress,3,True
+tensile failure,3,True
+tensile characteristic,3,True
+tempering temperature,3,True
+temperature programmed reduction,3,True
+temperature programmed desorption,3,True
+temperature effect,3,True
+tem analysis,3,True
+tcp phase,3,True
+taylor factor,3,True
+synergistic effect,3,True
+synchrotron radiation,3,True
+symmetric rolling,3,True
+surface wettability,3,True
+surface temperature,3,True
+surface strain,3,True
+surface preparation,3,True
+surface modifier,3,True
+surface hardening,3,True
+surface free energy,3,True
+surface film,3,True
+surface cracking,3,True
+surface composite,3,True
+supersaturated matrix,3,True
+superplastic material,3,True
+super duplex stainless steel,3,True
+sulfuric acid,3,True
+sulfonated polyether ether ketone,3,True
+subgrain coarsening,3,True
+sub boundary,3,True
+structural transformation,3,True
+structural stability,3,True
+structural fatigue,3,True
+strontium titanate,3,True
+strontium addition,3,True
+stress transfer,3,True
+stress rupture,3,True
+stress rupture life,3,True
+stress induced transformation,3,True
+stress corrosion,3,True
+stress corrosion cracking resistance,3,True
+stress build up,3,True
+stress analysis,3,True
+strengthening phase,3,True
+strength loss,3,True
+strain recovery,3,True
+strain path,3,True
+strain localisation,3,True
+strain level,3,True
+strain induced martensite formation,3,True
+strain hardening ability,3,True
+strain gradient plasticity,3,True
+strain field,3,True
+strain effect,3,True
+stored deformation energy,3,True
+stirred zone,3,True
+stir casting method,3,True
+stereological procedure,3,True
+steady state flow stress,3,True
+static tensile test,3,True
+spreading kinetic,3,True
+spray drying,3,True
+spot welding,3,True
+spontaneous polarization,3,True
+splat morphology,3,True
+splat formation,3,True
+splat boundary,3,True
+spherical precipitate,3,True
+spherical indentation,3,True
+spectroscopic technique,3,True
+spectroscopic ellipsometry,3,True
+spectral range,3,True
+spectral data,3,True
+specimen geometry,3,True
+specific wear rate,3,True
+spark plasma sintering synthesis process,3,True
+solvothermal method,3,True
+solvent evaporation,3,True
+solvent casting,3,True
+solute partitioning,3,True
+solute enrichment,3,True
+solute element,3,True
+solute drag,3,True
+solidification mode,3,True
+solidification front,3,True
+solid wood,3,True
+solid volume fraction,3,True
+solid state phase transformation,3,True
+solid state joining,3,True
+solid solution formation,3,True
+solid solubility,3,True
+solid phase,3,True
+sol gel technique,3,True
+softening effect,3,True
+soft magnetic alloy,3,True
+soft impingement,3,True
+sodium silicate,3,True
+slow strain rate,3,True
+slow strain rate tensile test,3,True
+slow cooling,3,True
+slip mode,3,True
+slip activity,3,True
+sliding wear resistance,3,True
+sliding distance,3,True
+sintering method,3,True
+sintering behavior,3,True
+sintering atmosphere,3,True
+sintering aid,3,True
+sintered density,3,True
+silver content,3,True
+silicon morphology,3,True
+sic reinforcement,3,True
+sic composite,3,True
+shs reaction,3,True
+short circuit current density,3,True
+sheet normal direction,3,True
+sheet metal,3,True
+shearing pattern,3,True
+shear texture,3,True
+shear test,3,True
+shear fracture,3,True
+shear ductile rupture,3,True
+shear dimple,3,True
+shear behavior,3,True
+shear band yielding,3,True
+shape memory polymer,3,True
+service temperature,3,True
+semiconductor material,3,True
+semi coherent interface,3,True
+self propagating,3,True
+self consistent model,3,True
+self compacting concrete,3,True
+selective laser,3,True
+selective laser melted ti6al4v,3,True
+selective laser melted aluminium alloy,3,True
+selective laser melted alloy,3,True
+secondary precipitation,3,True
+secondary crack,3,True
+sealing material,3,True
+scratch test,3,True
+scc resistance,3,True
+scanning probe microscopy,3,True
+scanning kelvin probe force microscopy,3,True
+scanning electron micrograph,3,True
+scan speed,3,True
+scan line spacing,3,True
+scale morphology,3,True
+scale formation,3,True
+salt solution,3,True
+rubber modified epoxy,3,True
+rubber like behavior,3,True
+route bc,3,True
+rotor steel,3,True
+rotation speed,3,True
+rotation rate,3,True
+rotating magnetic field,3,True
+rotary bending fatigue test,3,True
+room temperature strength,3,True
+room temperature mechanical property,3,True
+rolling process,3,True
+rolled sheet,3,True
+rietveld analysis,3,True
+rheological measurement,3,True
+retrogression and reaging,3,True
+retained austenite content,3,True
+resistance measurement,3,True
+resin infusion,3,True
+residual stress redistribution,3,True
+residual stress measurement,3,True
+residual strain,3,True
+residual compressive stress,3,True
+replication process,3,True
+remanent polarization,3,True
+relaxation time,3,True
+relative permittivity,3,True
+reinforcing mechanism,3,True
+reinforcing effect,3,True
+reinforcement size,3,True
+reinforcement particle size,3,True
+regenerative medicine,3,True
+refractory element,3,True
+reducing agent,3,True
+redox potential,3,True
+recycled carbon fibre,3,True
+recrystallized fraction,3,True
+recrystallization grain,3,True
+reactive sputtering,3,True
+reactive element,3,True
+reaction time,3,True
+reaction temperature,3,True
+reaction kinetic,3,True
+rate sensitivity,3,True
+rate controlling mechanism,3,True
+rate capability,3,True
+ratcheting strain,3,True
+rare earth,3,True
+rapidly solidified aluminium alloy,3,True
+raman spectrum,3,True
+raman mode,3,True
+raman microscopy,3,True
+raman band,3,True
+radius of gyration,3,True
+radiative recombination,3,True
+radial distribution function,3,True
+r phase transformation,3,True
+quenching partitioning,3,True
+quenching and partitioning steel,3,True
+quasistatic loading,3,True
+quasi static tensile test,3,True
+quasi static strain rate,3,True
+quasi static condition,3,True
+quasi static compression test,3,True
+quasi polygonal ferrite,3,True
+quantum dot,3,True
+pyroxene phase,3,True
+pyroelectric coefficient,3,True
+pure magnesium alloy,3,True
+pure iron,3,True
+pulsed nd:yag laser,3,True
+pulse duration,3,True
+pullout failure mode,3,True
+pseudoelastic behavior,3,True
+pseudo elasticity,3,True
+processing property,3,True
+processing method,3,True
+processing condition,3,True
+process map,3,True
+principal component analysis,3,True
+pressure effect,3,True
+preheating temperature,3,True
+precipitation temperature,3,True
+precipitation reaction,3,True
+precipitation rate,3,True
+precipitation phase,3,True
+precipitation microstructure,3,True
+precipitation characteristic,3,True
+precipitate structure,3,True
+precipitate nucleation,3,True
+precipitate evolution,3,True
+prealloyed powder,3,True
+pozzolanic reaction,3,True
+power law,3,True
+power law creep,3,True
+powder sintering,3,True
+powder processing method,3,True
+powder particle,3,True
+powder metallurgical technique,3,True
+powder metallurgical processing,3,True
+powder material,3,True
+powder consolidation,3,True
+post deformation annealing,3,True
+porous medium,3,True
+porous copper,3,True
+porous alumina,3,True
+porosity increase,3,True
+porosity distribution,3,True
+pore network,3,True
+pore diameter,3,True
+polyphenylene oxide,3,True
+polymeric foam,3,True
+polymeric binder,3,True
+polymer nanocomposite,3,True
+polymer melt,3,True
+polymer layer,3,True
+polymer foam,3,True
+polyhedral oligomeric silsesquioxane,3,True
+polyethylene fibre,3,True
+polyether ether ketone,3,True
+polycrystalline alumina,3,True
+polyalkenoate cement,3,True
+poly caprolactone,3,True
+pollutant removal,3,True
+polarization measurement,3,True
+platelet phase,3,True
+plastic straining,3,True
+plastic deformation zone,3,True
+plastic deformation technique,3,True
+plastic deformation process,3,True
+planar glide,3,True
+planar fault,3,True
+planar dislocation slip,3,True
+planar array,3,True
+pin on disk,3,True
+pin on disc machine,3,True
+piezoelectric effect,3,True
+physical stability,3,True
+photovoltaic device,3,True
+photovoltaic application,3,True
+photoluminescence spectrum,3,True
+photoluminescence spectroscopy,3,True
+photoluminescence measurement,3,True
+phosphate based glass,3,True
+phase transformation toughening,3,True
+phase relationship,3,True
+phase relation,3,True
+phase purity,3,True
+phase particle,3,True
+phase identification,3,True
+phase decomposition,3,True
+phase constitution,3,True
+phase angle,3,True
+ph value,3,True
+perovskite structure,3,True
+permanent mold casting,3,True
+peierls stress,3,True
+pearlitic structure,3,True
+peak value,3,True
+peak appearance,3,True
+particulate reinforced composite,3,True
+particle surface,3,True
+particle strengthening,3,True
+particle rich region,3,True
+particle pull out,3,True
+particle oxidation,3,True
+particle cracking,3,True
+particle coalescence,3,True
+particle clustering,3,True
+particle addition,3,True
+partially stabilized zirconia,3,True
+partial dissolution,3,True
+parabolic law,3,True
+palladium nanoparticle,3,True
+packet boundary,3,True
+p91 steel,3,True
+oxygen vacancy,3,True
+oxygen permeability,3,True
+oxide phase,3,True
+oxide inclusion,3,True
+oxide dispersion strengthened steel,3,True
+oxide content,3,True
+oxidation state,3,True
+overaged condition,3,True
+outdoor weathering,3,True
+out of plane orientation,3,True
+ostwald ripening,3,True
+orientation relationship,3,True
+organic polymer,3,True
+ordinary portland cement,3,True
+optoelectronic property,3,True
+optimal processing parameter,3,True
+optical profilometry,3,True
+optical bandgap,3,True
+open pore,3,True
+one pot synthesis,3,True
+oil bath,3,True
+ods alloy,3,True
+odc ferritic steel,3,True
+number density,3,True
+nugget zone,3,True
+nucleation growth,3,True
+notched sample,3,True
+notch toughness,3,True
+normal load,3,True
+non basal slip,3,True
+non basal slip system,3,True
+nitrogen sorption,3,True
+nitrogen pressure,3,True
+nitrogen level,3,True
+nitrogen flow rate,3,True
+nitrogen effect,3,True
+nitrogen concentration,3,True
+niobium carbide,3,True
+nickel powder,3,True
+nickel nanoparticle,3,True
+nickel manganese gallium,3,True
+nial alloy,3,True
+network structure,3,True
+network reinforcement architecture,3,True
+negative poisson ratio,3,True
+neel temperature,3,True
+necking instability,3,True
+near net shape,3,True
+near eutectic alloy,3,True
+natural fiber,3,True
+nanostructured metal,3,True
+nanosized powder,3,True
+nanoparticle size,3,True
+nanoparticle reinforcement,3,True
+nanoparticle interaction,3,True
+nanoparticle dispersion,3,True
+nanomechanical property,3,True
+nanoindentation technique,3,True
+nanofibrillated cellulose,3,True
+nanofiber formation,3,True
+nanocrystalline titanium,3,True
+nanocrystalline sample,3,True
+nanocrystalline regime,3,True
+nanocrystalline iron,3,True
+nanocrystalline ceramic,3,True
+nanocrystalline bainitic steel,3,True
+nanocrystalline aluminium,3,True
+nanocrystal formation,3,True
+nanocomposite coating,3,True
+nano particle,3,True
+nafion membrane,3,True
+multiscale model,3,True
+multiple slip,3,True
+multi wall carbon nanotube,3,True
+multi principal element alloy,3,True
+multi phase system,3,True
+multi phase microstructure,3,True
+multi phase alloy,3,True
+multi pass equal channel angular pressing,3,True
+multi directional forging,3,True
+multi component alloy,3,True
+mssbauer spectroscopy,3,True
+morphological analysis,3,True
+monolithic metal,3,True
+monoclinic zirconia,3,True
+molybdenum alloying element,3,True
+molten pool,3,True
+molecular orientation,3,True
+molecular level,3,True
+molar volume,3,True
+moisture uptake,3,True
+moisture effect,3,True
+modifiedr1mo steel,3,True
+mobile dislocation density,3,True
+mixed oxide,3,True
+microtexture evolution,3,True
+microstructure study,3,True
+microstructure strength,3,True
+microstructure parameter,3,True
+microstructure modification,3,True
+microstructure investigation,3,True
+microstructure inhomogeneity,3,True
+microstructure feature,3,True
+microstructure control,3,True
+microstructure coarsening,3,True
+microstructural morphology,3,True
+microstructural factor,3,True
+microstructural evaluation,3,True
+microstructural defect,3,True
+microstructural damage,3,True
+microstructural aspect,3,True
+microscopic scale,3,True
+microphase separation,3,True
+micromechanical property,3,True
+micromechanical analysis,3,True
+microindentation hardness,3,True
+microhardness testing,3,True
+microhardness profile,3,True
+microhardness increase,3,True
+microhardness improvement,3,True
+microfibril angle,3,True
+microcrystalline cellulose,3,True
+microcrack initiation,3,True
+micro tensile testing,3,True
+micro indentation,3,True
+mgzn2 precipitate,3,True
+mgalzn alloy,3,True
+mg2si phase,3,True
+mg17al12 precipitate,3,True
+mg17al12 phase,3,True
+metalorganic chemical vapor deposition,3,True
+metallurgical bond,3,True
+metallic glass formation,3,True
+metal oxide,3,True
+metal matrix nanocomposite,3,True
+metal injection molding,3,True
+metal component,3,True
+mesoscopic simulation,3,True
+mercury porosimetry,3,True
+melting process,3,True
+melting behavior,3,True
+melt viscosity,3,True
+melt blending,3,True
+medium carbon steel,3,True
+mechanical stirring,3,True
+mechanical property change,3,True
+mechanical processing,3,True
+mechanical interlocking,3,True
+mechanical instability,3,True
+mechanical characterisation,3,True
+matrix structure,3,True
+matrix reinforcement,3,True
+matrix precipitation,3,True
+matrix nanocomposite,3,True
+matrix microhardness,3,True
+matrix grain size,3,True
+matrix dissolution,3,True
+matrix dislocation,3,True
+matrix deformation,3,True
+matrix aluminium alloy,3,True
+material test,3,True
+material system,3,True
+material synthesis,3,True
+material structure,3,True
+material development,3,True
+material behavior,3,True
+mass spectroscopy,3,True
+martensitic transformation behavior,3,True
+martensitic lath,3,True
+martensite reversion,3,True
+martensite plate,3,True
+martensite particle size,3,True
+martensite cracking,3,True
+marangoni convection,3,True
+manufacturing process,3,True
+manganese oxide,3,True
+magnetocaloric effect,3,True
+magnetic susceptibility,3,True
+magnesium matrix nanocomposite,3,True
+macroscopic mechanical property,3,True
+machined surface,3,True
+m3 carbide,3,True
+m carbide,3,True
+low velocity impact,3,True
+low temperature toughness,3,True
+low temperature aging,3,True
+low porosity,3,True
+low energy dislocation structure,3,True
+low ductility,3,True
+low cost,3,True
+long range order,3,True
+localized shear band,3,True
+localized necking,3,True
+localized deformation,3,True
+localized corrosion,3,True
+local plastic deformation,3,True
+local deformation,3,True
+loading direction,3,True
+load transfer mechanism,3,True
+load displacement curve,3,True
+load bearing effect,3,True
+lithium addition,3,True
+liquid phase bonding,3,True
+liquid metal infiltration,3,True
+liquid copper,3,True
+liquation cracking,3,True
+linepipe steel,3,True
+linear correlation,3,True
+line profile analysis,3,True
+lightweight alloy,3,True
+light weight structure,3,True
+lead titanate,3,True
+lead free ceramic,3,True
+layered silicate,3,True
+layer deposition,3,True
+lath boundary,3,True
+laser rapid forming,3,True
+laser pulse,3,True
+laser metal deposition,3,True
+laser melting deposition,3,True
+laser fluence,3,True
+laser flash method,3,True
+laser additive manufacturing,3,True
+large strain hot rolling,3,True
+lanthanum addition,3,True
+lankford value,3,True
+lamellar spacing,3,True
+lamellar orientation,3,True
+lamellar boundary,3,True
+lactic acid,3,True
+kirkendall porosity,3,True
+kinetic energy,3,True
+joining temperature,3,True
+isothermal heating,3,True
+isothermal heat treatment,3,True
+isothermal deformation,3,True
+isostatic pressing,3,True
+iron effect,3,True
+iron content,3,True
+iron chromium alloy,3,True
+ionic liquid,3,True
+ion transport,3,True
+ion irradiation,3,True
+investment casting,3,True
+inverse hall petch relation,3,True
+interstitial free steel,3,True
+interstitial cluster,3,True
+interrupted tensile test,3,True
+interpenetrating network,3,True
+interparticle spacing,3,True
+internal oxidation,3,True
+intermetallic material,3,True
+intermetallic layer,3,True
+intermediate phase,3,True
+interlamellar spacing,3,True
+intergranular stress corrosion cracking,3,True
+intergranular failure,3,True
+intergranular cracking,3,True
+interfacial structure,3,True
+interfacial strength,3,True
+interfacial chemistry,3,True
+interface morphology,3,True
+interface energy,3,True
+interdiffusion coefficient,3,True
+inter diffusion,3,True
+instrumented indentation,3,True
+instability parameter,3,True
+initial strain rate,3,True
+initial microstructure,3,True
+inhomogeneous deformation,3,True
+infrared radiation,3,True
+infiltration pressure,3,True
+inelastic deformation,3,True
+indium tin oxide,3,True
+indirect extrusion,3,True
+indirect band gap,3,True
+indentation modulus,3,True
+indentation fracture toughness,3,True
+incoherent precipitate,3,True
+in situ x ray diffraction,3,True
+in situ tensile testing,3,True
+in situ monitoring,3,True
+in situ measurement,3,True
+in situ high energy x ray diffraction,3,True
+in situ fabrication,3,True
+in situ analysis,3,True
+impact velocity,3,True
+impact test,3,True
+impact energy absorption,3,True
+immersion test,3,True
+immersion method,3,True
+imc layer,3,True
+imaging technique,3,True
+image analysis technique,3,True
+icosahedral quasicrystalline phase,3,True
+hypoeutectic alloy,3,True
+hypereutectic alloy,3,True
+hyperbolic sine type equation,3,True
+hydroxyapatite powder,3,True
+hydrostatic tension,3,True
+hydrogen trapping,3,True
+hydrogen storage capacity,3,True
+hydrogen pressure,3,True
+hydrogen peroxide,3,True
+hydrogen permeation,3,True
+hydrogen level,3,True
+hydrogen embrittlement susceptibility,3,True
+hydrogen concentration,3,True
+hydrogen charging,3,True
+hydrogen absorption,3,True
+hot working behavior,3,True
+hot torsion testing,3,True
+hot stage,3,True
+hot press,3,True
+hot drawing,3,True
+hot cracking,3,True
+homogeneous distribution,3,True
+homogeneous deformation,3,True
+hollow glass microsphere,3,True
+holding time,3,True
+high yield strength,3,True
+high vacuum,3,True
+high temperature structural application,3,True
+high temperature flow stress,3,True
+high temperature exposure,3,True
+high temperature corrosion,3,True
+high strength to weight ratio,3,True
+high strength material,3,True
+high strength composite,3,True
+high strain rate deformation,3,True
+high pressure torsion processing,3,True
+high manganese twip steel,3,True
+high manganese austenitic steel,3,True
+high entropy oxide,3,True
+high energy milling,3,True
+high cycle fatigue strength,3,True
+high cycle fatigue regime,3,True
+high cycle fatigue behavior,3,True
+high carbon steel,3,True
+hexagonal phase,3,True
+heterogeneous precipitation,3,True
+heterogeneous nucleation site,3,True
+heterogeneous material,3,True
+helium gas,3,True
+heating temperature,3,True
+heat treatment temperature,3,True
+heat treatment schedule,3,True
+heat treatment parameter,3,True
+heat treatment effect,3,True
+heat treated,3,True
+heat flux,3,True
+hcp metal,3,True
+hcp martensite,3,True
+hcl solution,3,True
+hastelloy x,3,True
+harper dorn creep,3,True
+hardness change,3,True
+hall petch strengthening,3,True
+hall petch slope,3,True
+h2 atmosphere,3,True
+growth velocity,3,True
+growth mechanism,3,True
+greenhouse gas emission,3,True
+green compact,3,True
+gravity casting,3,True
+graphite nanoplatelet,3,True
+graphite addition,3,True
+graphene reinforcement,3,True
+graphene nanosheet,3,True
+granular bainite,3,True
+grain subdivision,3,True
+grain structure evolution,3,True
+grain size dependence,3,True
+grain refinement mechanism,3,True
+grain interaction,3,True
+grain growth inhibitor,3,True
+grain boundary serration,3,True
+grain boundary region,3,True
+grain boundary precipitation,3,True
+grain boundary conductivity,3,True
+grain boundary characteristic,3,True
+graded material,3,True
+good ductility,3,True
+gliding dislocation,3,True
+glassy carbon electrode,3,True
+glass substrate,3,True
+glass bead,3,True
+gibbs phase rule,3,True
+gibbs free energy change,3,True
+gibbs energy,3,True
+geometrically necessary dislocation density,3,True
+geometric model,3,True
+geometric effect,3,True
+gel permeation chromatography,3,True
+gas turbine,3,True
+gas phase,3,True
+gas permeability,3,True
+gas atomization,3,True
+future application,3,True
+fusion welding,3,True
+fuel consumption,3,True
+fuel cell electrode,3,True
+friction welding,3,True
+friction stir welded aluminium alloy,3,True
+friction stir spot weld,3,True
+friction force,3,True
+friction behavior,3,True
+fresh martensite,3,True
+fracture zone,3,True
+fracture surface feature,3,True
+fracture performance,3,True
+fracture initiation,3,True
+fractographic analysis,3,True
+fractal analysis,3,True
+four point probe method,3,True
+forming process,3,True
+focused ion beam milling,3,True
+fly ash particle,3,True
+flow stress model,3,True
+flow stress curve,3,True
+flow rate,3,True
+flexible polyurethane foam,3,True
+flash sintering,3,True
+fine precipitation,3,True
+fine grained structure,3,True
+fine grain strengthening,3,True
+fill factor,3,True
+field emission,3,True
+field effect transistor,3,True
+fibrous structure,3,True
+fibrous morphology,3,True
+fibre reinforced composite,3,True
+fibre drawing,3,True
+fibre aspect ratio,3,True
+fiber orientation,3,True
+fiber matrix interface,3,True
+ferroelectric thin film,3,True
+ferroelectric phase,3,True
+ferritic steel,3,True
+ferritic matrix,3,True
+ferritic alloy,3,True
+ferrite phase,3,True
+ferrite matrix,3,True
+ferrite grain,3,True
+feedstock powder,3,True
+fatigue striation,3,True
+fatigue regime,3,True
+fatigue model,3,True
+fatigue loading,3,True
+fatigue fracture,3,True
+fatigue endurance limit,3,True
+fatigue crack propagation behavior,3,True
+fatigue crack initiation site,3,True
+fatigue crack initiation mechanism,3,True
+fatigue crack growth resistance,3,True
+face centered cubic metal,3,True
+face centered cubic fcc metal,3,True
+extrusion condition,3,True
+extruded microstructure,3,True
+extruded material,3,True
+experimental analysis,3,True
+expandable graphite,3,True
+excitation wavelength,3,True
+excimer laser,3,True
+evolution of microstructure,3,True
+eutectic solder alloy,3,True
+eutectic morphology,3,True
+eutectic composition,3,True
+escherichia coli,3,True
+erichsen test,3,True
+equimolar high entropy alloy,3,True
+equiaxed growth,3,True
+equiatomic alloy,3,True
+equal channel angular,3,True
+epoxy matrix composite,3,True
+epoxy based composite,3,True
+environmental resistance,3,True
+enthalpy of mixing,3,True
+enthalpy of formation,3,True
+enhanced stretch formability,3,True
+energy efficiency,3,True
+energy dispersive,3,True
+energy dispersive x ray microanalysis,3,True
+energy dispersive spectrum,3,True
+energy dispersive spectrometry,3,True
+energy absorption characteristic,3,True
+endurance limit,3,True
+empirical relationship,3,True
+emi shielding,3,True
+emi shielding effectiveness,3,True
+ellipsoidal precipitate,3,True
+elevated temperature deformation,3,True
+elemental composition,3,True
+electrospun nanofibre,3,True
+electrospinning technique,3,True
+electrospinning process,3,True
+electronic structure calculation,3,True
+electronic diffraction,3,True
+electronic density of state,3,True
+electron transfer,3,True
+electron probe microanalyzer,3,True
+electron probe micro analyzer,3,True
+electron microscopy observation,3,True
+electron micrograph,3,True
+electron concentration,3,True
+electron beam physical vapor deposition,3,True
+electromagnetic spectrum,3,True
+electromagnetic levitation,3,True
+electromagnetic field,3,True
+electrolyte material,3,True
+electrochemical response,3,True
+electrochemical potentiokinetic reactivation,3,True
+electrochemical activity,3,True
+electrocatalytic activity,3,True
+electrical performance,3,True
+electric discharge,3,True
+electric current pulse,3,True
+elastomeric phase,3,True
+elastic recovery,3,True
+elastic plastic behavior,3,True
+elastic moduli,3,True
+elastic anisotropy,3,True
+effective elastic modulus,3,True
+effective diffusion coefficient,3,True
+eb pvd,3,True
+dynamic mechanical property,3,True
+dynamic light scattering,3,True
+dynamic globularization,3,True
+ductility improvement,3,True
+ductile brittle transition temperature,3,True
+ductile brittle fracture,3,True
+ductile behavior,3,True
+dual phase,3,True
+dsc analysis,3,True
+dry sliding,3,True
+dry sliding wear test,3,True
+drxed grain,3,True
+drug delivery,3,True
+drug carrier,3,True
+dissolution process,3,True
+dissolution behavior,3,True
+dissipated energy,3,True
+dissimilar joint,3,True
+dispersoid strengthening,3,True
+dispersoid particle,3,True
+dispersoid formation,3,True
+dislocation storage,3,True
+dislocation process,3,True
+dislocation pinning,3,True
+dislocation nucleation,3,True
+dislocation multiplication,3,True
+dislocation kinetic,3,True
+dislocation gliding,3,True
+dislocation emission,3,True
+dislocation density evolution,3,True
+dislocation creep,3,True
+dislocation configuration,3,True
+dislocation absorption,3,True
+discharge capacity,3,True
+direct laser sintering,3,True
+direct laser fabrication,3,True
+direct laser deposition,3,True
+diode laser,3,True
+dimple like structure,3,True
+dilatometry measurement,3,True
+digital image correlation technique,3,True
+diffusion zone,3,True
+diffusion controlled growth,3,True
+diffuse reflectance spectroscopy,3,True
+diffraction analysis,3,True
+dielectric permittivity,3,True
+die casting alloy,3,True
+design of experiment,3,True
+dental implant,3,True
+density reduction,3,True
+density of state,3,True
+density measurement,3,True
+density difference,3,True
+densification kinetic,3,True
+dendritic solidification,3,True
+dendritic growth,3,True
+dendrite arm,3,True
+delayed fracture,3,True
+deionized water,3,True
+deformation structure,3,True
+deformation stage,3,True
+deformation resistance,3,True
+deformation parameter,3,True
+deformation map,3,True
+deformation induced martensitic transformation,3,True
+deformation gradient,3,True
+deformation dilatometry,3,True
+deformation characteristic,3,True
+deformation activation energy,3,True
+defect cluster,3,True
+deep rolling,3,True
+damage analysis,3,True
+cylindrical specimen,3,True
+cyclic stress,3,True
+cutting tool,3,True
+curing process,3,True
+curing kinetic,3,True
+cuo powder,3,True
+cumulative strain,3,True
+cubic symmetry,3,True
+cubic boron nitride,3,True
+cte mismatch,3,True
+crystallographic direction,3,True
+crystallization mechanism,3,True
+crystallisation temperature,3,True
+crystalline polymer,3,True
+crystalline lamellae,3,True
+crystalline alloy,3,True
+crystal structure change,3,True
+crystal quality,3,True
+crystal plasticity simulation,3,True
+crystal morphology,3,True
+cryomilled powder,3,True
+cryogenic temperature,3,True
+cross linking,3,True
+cross linking density,3,True
+critical current density,3,True
+creep testing,3,True
+creep temperature,3,True
+creep strengthening,3,True
+creep strain rate,3,True
+creep rupture behavior,3,True
+creep resistant steel,3,True
+creep fatigue interaction,3,True
+creep exposure,3,True
+creep deformation mechanism,3,True
+creep condition,3,True
+crazing mechanism,3,True
+cracking susceptibility,3,True
+cracking behavior,3,True
+crack tip shielding,3,True
+crack speed,3,True
+crack propagation rate,3,True
+crack propagation path,3,True
+crack pattern,3,True
+crack path,3,True
+crack opening,3,True
+crack initiation life,3,True
+crack growth behavior,3,True
+crack generation,3,True
+crack extension,3,True
+counter electrode,3,True
+corrosion test,3,True
+corrosion susceptibility,3,True
+corrosion behaviour,3,True
+core material,3,True
+coprecipitation method,3,True
+copper wire,3,True
+copper rich phase,3,True
+copper plate,3,True
+copper mold casting,3,True
+copper concentration,3,True
+copper addition,3,True
+cooling slope casting,3,True
+cooling curve,3,True
+cooling condition,3,True
+conventional sintering,3,True
+continuous cooling transformation,3,True
+contact stiffness,3,True
+contact damage,3,True
+contact area,3,True
+contact angle measurement,3,True
+constrained rod casting,3,True
+constrained groove pressing,3,True
+conductive filler,3,True
+conductive atomic force microscopy,3,True
+conducting polymer,3,True
+concrete specimen,3,True
+compressive strain,3,True
+compressive mechanical property,3,True
+compressive mechanical behavior,3,True
+compressive ductility,3,True
+compression yield strength,3,True
+compression twin,3,True
+compression stress,3,True
+compression strain,3,True
+compression moulding,3,True
+compression molding,3,True
+compression loading,3,True
+compression asymmetry,3,True
+compositional dependence,3,True
+composite strength,3,True
+composite property,3,True
+composite part,3,True
+composite coating,3,True
+composite application,3,True
+columnar dendrite,3,True
+cold workability,3,True
+cold work,3,True
+cold spray deposition,3,True
+cold rolled,3,True
+cold rolled alloy,3,True
+cold roll bonding,3,True
+cold deformation,3,True
+coincidence site lattice,3,True
+coincidence site lattice boundary,3,True
+coercive field,3,True
+cobalt content,3,True
+cobalt chromium femn nickel high entropy alloy,3,True
+cobalt addition,3,True
+coating microstructure,3,True
+coating deposition,3,True
+coarsening kinetic,3,True
+coarse grained microstructure,3,True
+co2 laser,3,True
+closed cell,3,True
+cleavage mode,3,True
+clay platelet,3,True
+clay nanocomposite,3,True
+chromium diffusion,3,True
+chemical treatment,3,True
+chemical route,3,True
+chemical homogeneity,3,True
+chemical evolution,3,True
+chemical change,3,True
+charpy impact property,3,True
+charge transport,3,True
+charge discharge,3,True
+charge density,3,True
+ceramic nanoparticle,3,True
+ceramic matrix,3,True
+cement based composite,3,True
+cellulose nanofiber,3,True
+cellulose microfibril angle,3,True
+cellulose fibre,3,True
+cellulose fiber,3,True
+cellulose acetate,3,True
+cellular substructure,3,True
+cellular dendrite,3,True
+cell wall,3,True
+cell response,3,True
+cell differentiation,3,True
+cell adhesion,3,True
+cct diagram,3,True
+cationic surfactant,3,True
+cathodic arc deposition,3,True
+cathode material,3,True
+catalytic performance,3,True
+catalytic chemical vapor deposition,3,True
+casting process,3,True
+cast magnesium alloy,3,True
+case depth,3,True
+carbonyl group,3,True
+carbonization temperature,3,True
+carbon powder,3,True
+carbon nanotube composite,3,True
+carbon nanoparticle,3,True
+carbon nanofibre,3,True
+carbon matrix,3,True
+carbon material,3,True
+carbon epoxy composite,3,True
+carbide particle,3,True
+carbide morphology,3,True
+capillary force,3,True
+capacitance retention,3,True
+cantilever bending,3,True
+calcium hydroxide,3,True
+butt joint,3,True
+bulk value,3,True
+bulk texture,3,True
+bulk mechanical property,3,True
+brittle to ductile transition,3,True
+brittle nature,3,True
+brittle intermetallic phase,3,True
+breakdown strength,3,True
+braided composite,3,True
+boundary condition,3,True
+boron steel,3,True
+boron carbide reinforcement,3,True
+bone tissue engineering,3,True
+bone substitute,3,True
+bone replacement,3,True
+bone cement,3,True
+bonding process,3,True
+bond formation,3,True
+body centered cubic,3,True
+body centered cubic structure,3,True
+body centered cubic phase,3,True
+biodegradable material,3,True
+biocompatible polymer,3,True
+bioactive glass coating,3,True
+binder phase,3,True
+bimodal grain size distribution,3,True
+bimodal distribution,3,True
+bcc crystal structure,3,True
+banded microstructure,3,True
+band gap energy,3,True
+bainitic microstructure,3,True
+back scatter diffraction,3,True
+b.c.c. metal,3,True
+az91d alloy,3,True
+az61 magnesium alloy,3,True
+axial tension,3,True
+axial direction,3,True
+avrami exponent,3,True
+aviation industry,3,True
+austenitic twip steel,3,True
+austenitic alloy,3,True
+austenite to martensite transformation,3,True
+austenite stabilization,3,True
+austenite recrystallization,3,True
+austenite matrix,3,True
+austenite grain growth,3,True
+austempered ductile iron,3,True
+auger electron spectroscopy,3,True
+atomistic study,3,True
+atomistic simulation,3,True
+atomistic modeling,3,True
+atom probe field ion microscopy,3,True
+ashby model,3,True
+as cast structure,3,True
+as cast state,3,True
+as cast aluminium alloy,3,True
+as built microstructure,3,True
+anodic dissolution,3,True
+anode material,3,True
+annular dark field,3,True
+annealing atmosphere,3,True
+annealed sample,3,True
+anisotropic mechanical property,3,True
+angular pressing,3,True
+anatase phase,3,True
+analytical method,3,True
+amorphous phase formation,3,True
+amorphous matrix,3,True
+ammonia solution,3,True
+amino propyl triethoxy silane,3,True
+amine group,3,True
+alznmg alloy,3,True
+aluminothermic reduction,3,True
+aluminium syntactic foam,3,True
+aluminium substrate,3,True
+aluminium scandium alloy,3,True
+aluminium friction stir weld,3,True
+aluminium effect,3,True
+aluminium diffusion,3,True
+aluminium deformation,3,True
+aluminium copper alloy,3,True
+aluminium carbide formation,3,True
+aluminium based metal matrix composite,3,True
+aluminium based alloy,3,True
+aluminium alumina composite,3,True
+aluminium alloy sheet,3,True
+aluminium alloy metal matrix composite,3,True
+aluminium alloy composite,3,True
+aluminium alloy casting,3,True
+alumina scale,3,True
+alsicu alloy,3,True
+alloying effect,3,True
+alloy strengthening,3,True
+alloy ductility,3,True
+alli alloy,3,True
+alkali activated material,3,True
+al7si alloy,3,True
+al2o3 reinforcement,3,True
+al2o3 particle distribution,3,True
+aisi 316l stainless steel,3,True
+air oxidation,3,True
+aging response,3,True
+aging kinetic,3,True
+age hardenable alloy,3,True
+adsorption energy,3,True
+adsorption characteristic,3,True
+adiabatic shear band formation,3,True
+adhesive strength,3,True
+additively manufactured,3,True
+additively manufactured alloy,3,True
+additive layer manufacturing,3,True
+activated carbon,3,True
+acrylic acid,3,True
+acoustic cavitation,3,True
+acid concentration,3,True
+acicular ferrite formation,3,True
+accumulated strain,3,True
+accelerated peak appearance,3,True
+absorption spectroscopy,3,True
+absorption edge,3,True
+absorption characteristic,3,True
+absorbed energy,3,True
+abrasive wear resistance,3,True
+ab initio study,3,True
+aa7050 aluminium alloy,3,True
+a356 alloy,3,True
+ZrTiCuNiBe,3,True
+ZnAl,3,True
+WSi2,3,True
+W5.6Ni1.4Fe,3,True
+VN,3,True
+UC,3,True
+TiTa,3,True
+TiNi3,3,True
+TiNbZr,3,True
+TiCu,3,True
+TiAl6V4,3,True
+Ti6Al7Nb,3,True
+Ti3Ni4,3,True
+Ti3Al,3,True
+Ti10V2Fe3Al,3,True
+TeO4,3,True
+TeO3,3,True
+SrWO4,3,True
+SnSe,3,True
+SnS,3,True
+SnBi,3,True
+SiO4,3,True
+SOC,3,True
+SO42,3,True
+PbZn1,3,True
+PbSn,3,True
+PbS,3,True
+PO4,3,True
+PFN,3,True
+PBF,3,True
+PB,3,True
+OCP,3,True
+NiW,3,True
+NiTiHf,3,True
+NiSi,3,True
+NiGe,3,True
+Ni4Ti3,3,True
+Ni3Nb,3,True
+NdFeB,3,True
+NbN,3,True
+NbCr2,3,True
+Nb5Si3,3,True
+Na2CO3,3,True
+NH,3,True
+NFC,3,True
+NF,3,True
+MoSiB,3,True
+MnAlC,3,True
+Mn3O4,3,True
+MgZnZr,3,True
+MgZnGd,3,True
+MgZnCe,3,True
+MgZnCa,3,True
+MgZnAl,3,True
+MgYZn,3,True
+MgGd,3,True
+Mg97Zn1Y2,3,True
+Mg3Sb2,3,True
+Mg2Ca,3,True
+LiCoO2,3,True
+La2O3,3,True
+KCl,3,True
+K0.5Na0.5NbO3,3,True
+InAs,3,True
+IC,3,True
+HfC,3,True
+HY,3,True
+HSiC,3,True
+GaP,3,True
+FeW,3,True
+FeMnC,3,True
+FeCu,3,True
+FeCr,3,True
+Fe2Ti,3,True
+Fe18Mn0.6C1.5Al,3,True
+CuZr,3,True
+CuW,3,True
+CuTi,3,True
+CuNb,3,True
+CuAlNi,3,True
+CuAl2,3,True
+CuAg,3,True
+CrB,3,True
+Cr2N,3,True
+CoCu,3,True
+Co3O4,3,True
+COF,3,True
+CMn,3,True
+CH,3,True
+BaGeO3,3,True
+BS,3,True
+BH24,3,True
+B2NiTi,3,True
+ArO2,3,True
+AlZnMgZr,3,True
+AlZn,3,True
+AlTiB2,3,True
+AlSi12,3,True
+AlSc,3,True
+AlCuMgAg,3,True
+AlCuFe,3,True
+AlB,3,True
+Al7SiMg,3,True
+Al7Si,3,True
+Al4Sr,3,True
+Al2CuMg,3,True
+Al12Si,3,True
+AgAu,3,True
+3d imaging,3,True
