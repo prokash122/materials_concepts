@@ -54,24 +54,24 @@ def is_materials_related(record: dict, filter_by_division: bool, lookup_concepts
     if not filter_by_division:
         return True
 
-    abstract = (record.get("awd_abstract_narration") or "").lower()
-    title = (record.get("awd_titl_txt") or "").lower()
-    text = abstract + " " + title
-
-    # primary filter: lookup.M.csv concepts must appear in abstract or title
-    if lookup_concepts:
-        return any(c in text for c in lookup_concepts)
-
-    # fallback if no lookup provided: use division + hardcoded keywords
     div_name = (record.get("org_div_long_name") or "").lower()
     div_abbr = (record.get("div_abbr") or "").upper()
+    pgm_elements = record.get("pgm_ele", []) or []
+    pgm_names = " ".join(p.get("pgm_ele_name", "") for p in pgm_elements).lower()
 
+    # strict division filter — only confirmed materials/manufacturing divisions
     for div in MATERIALS_DIVISIONS:
         if div.lower() in div_name:
             return True
     if div_abbr in MATERIALS_DIV_ABBR:
         return True
-    return any(kw in text for kw in MATERIALS_KEYWORDS)
+
+    # check NSF program element names (more specific than division)
+    for div in MATERIALS_DIVISIONS:
+        if div.lower() in pgm_names:
+            return True
+
+    return False
 
 
 def parse_record(record: dict) -> dict:
