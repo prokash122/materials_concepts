@@ -50,7 +50,7 @@ def get_program_names(pgm_ele: list) -> str:
     return "; ".join(p.get("pgm_ele_name", "") for p in pgm_ele)
 
 
-def is_materials_related(record: dict, filter_by_division: bool) -> bool:
+def is_materials_related(record: dict, filter_by_division: bool, lookup_concepts: set | None = None) -> bool:
     if not filter_by_division:
         return True
 
@@ -58,6 +58,7 @@ def is_materials_related(record: dict, filter_by_division: bool) -> bool:
     div_abbr = (record.get("div_abbr") or "").upper()
     abstract = (record.get("awd_abstract_narration") or "").lower()
     title = (record.get("awd_titl_txt") or "").lower()
+    text = abstract + " " + title
 
     # check division name
     for div in MATERIALS_DIVISIONS:
@@ -67,6 +68,13 @@ def is_materials_related(record: dict, filter_by_division: bool) -> bool:
     # check division abbreviation
     if div_abbr in MATERIALS_DIV_ABBR:
         return True
+
+    # check lookup.M.csv concepts in abstract/title (primary keyword filter)
+    if lookup_concepts:
+        return any(c in text for c in lookup_concepts)
+
+    # fallback to hardcoded keywords if no lookup provided
+    return any(kw in text for kw in MATERIALS_KEYWORDS)
 
     # check abstract/title keywords
     text = abstract + " " + title
@@ -194,7 +202,7 @@ def parse_nsf_json(
     # parse and filter
     parsed = []
     for record in tqdm(all_records, desc="Parsing records"):
-        if not is_materials_related(record, filter_by_division):
+        if not is_materials_related(record, filter_by_division, lookup_concepts):
             continue
         parsed.append(parse_record(record))
 
@@ -211,13 +219,6 @@ def parse_nsf_json(
     df = df[df["abstract"].notna() & (df["abstract"].str.len() >= min_abstract_length)]
     logger.info(f"After abstract filter: {len(df)} records")
 
-    # optional: filter by lookup concepts
-    if lookup_concepts:
-        def has_concept(abstract):
-            text = str(abstract).lower()
-            return any(c in text for c in lookup_concepts)
-        df = df[df["abstract"].apply(has_concept)]
-        logger.info(f"After concept filter: {len(df)} records")
 
     df = df.drop_duplicates(subset="id").reset_index(drop=True)
     df.to_csv(out, index=False)
