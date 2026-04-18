@@ -54,10 +54,10 @@ def is_materials_related(record: dict, filter_by_division: bool) -> bool:
     if not filter_by_division:
         return True
 
-    div_name = record.get("org_div_long_name", "").lower()
-    div_abbr = record.get("div_abbr", "").upper()
-    abstract = record.get("awd_abstract_narration", "").lower()
-    title = record.get("awd_titl_txt", "").lower()
+    div_name = (record.get("org_div_long_name") or "").lower()
+    div_abbr = (record.get("div_abbr") or "").upper()
+    abstract = (record.get("awd_abstract_narration") or "").lower()
+    title = (record.get("awd_titl_txt") or "").lower()
 
     # check division name
     for div in MATERIALS_DIVISIONS:
@@ -80,7 +80,7 @@ def parse_record(record: dict) -> dict:
     return {
         "id":               record.get("awd_id", ""),
         "display_name":     record.get("awd_titl_txt", ""),
-        "abstract":         record.get("awd_abstract_narration", ""),
+        "abstract":         record.get("awd_abstract_narration") or "",
         "publication_date": record.get("awd_eff_date", ""),
         "exp_date":         record.get("awd_exp_date", ""),
         "amount":           record.get("awd_amount", 0),
