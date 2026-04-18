@@ -25,59 +25,32 @@ MATERIALS_DIVISIONS = [
     "Division of Manufacturing Innovation",
 ]
 
-MATERIALS_DIV_ABBR = ["DMR", "CMMI", "ENG", "MPS"]
-
-MATERIALS_KEYWORDS = [
-    "material", "manufacturing", "ceramic", "polymer", "composite",
-    "alloy", "coating", "thin film", "nanostructure", "semiconductor",
-    "piezoelectric", "ferroelectric", "crystal", "metal", "additive manufacturing",
-    "3d printing", "corrosion", "fatigue", "fracture", "microstructure",
-]
-
-
-def get_pi_name(pi_list: list) -> str:
-    if not pi_list:
-        return ""
-    for pi in pi_list:
-        if pi.get("pi_role", "").lower() == "principal investigator":
-            return pi.get("pi_full_name", "")
-    return pi_list[0].get("pi_full_name", "")
-
-
-def get_program_names(pgm_ele: list) -> str:
-    if not pgm_ele:
-        return ""
-    return "; ".join(p.get("pgm_ele_name", "") for p in pgm_ele)
+# Only the most specific materials/manufacturing NSF divisions
+MATERIALS_DIV_ABBR = ["DMR", "CMMI"]
 
 
 def is_materials_related(record: dict, filter_by_division: bool, lookup_concepts: set | None = None) -> bool:
     if not filter_by_division:
         return True
 
-    div_name = (record.get("org_div_long_name") or "").lower()
-    div_abbr = (record.get("div_abbr") or "").upper()
     abstract = (record.get("awd_abstract_narration") or "").lower()
     title = (record.get("awd_titl_txt") or "").lower()
     text = abstract + " " + title
 
-    # check division name
-    for div in MATERIALS_DIVISIONS:
-        if div.lower() in div_name:
-            return True
-
-    # check division abbreviation
-    if div_abbr in MATERIALS_DIV_ABBR:
-        return True
-
-    # check lookup.M.csv concepts in abstract/title (primary keyword filter)
+    # primary filter: lookup.M.csv concepts must appear in abstract or title
     if lookup_concepts:
         return any(c in text for c in lookup_concepts)
 
-    # fallback to hardcoded keywords if no lookup provided
-    return any(kw in text for kw in MATERIALS_KEYWORDS)
+    # fallback if no lookup provided: use division + hardcoded keywords
+    div_name = (record.get("org_div_long_name") or "").lower()
+    div_abbr = (record.get("div_abbr") or "").upper()
 
-    # check abstract/title keywords
-    text = abstract + " " + title
+    for div in MATERIALS_DIVISIONS:
+        if div.lower() in div_name:
+            return True
+    if div_abbr in MATERIALS_DIV_ABBR:
+        return True
+    return any(kw in text for kw in MATERIALS_KEYWORDS)
     return any(kw in text for kw in MATERIALS_KEYWORDS)
 
 
