@@ -28,6 +28,27 @@ MATERIALS_DIVISIONS = [
 # Only the most specific materials/manufacturing NSF divisions
 MATERIALS_DIV_ABBR = ["DMR", "CMMI"]
 
+MATERIALS_KEYWORDS = [
+    "material", "manufacturing", "ceramic", "polymer", "composite",
+    "alloy", "coating", "thin film", "nanostructure", "semiconductor",
+    "piezoelectric", "ferroelectric", "crystal", "microstructure",
+]
+
+
+def get_pi_name(pi_list: list) -> str:
+    if not pi_list:
+        return ""
+    for pi in pi_list:
+        if pi.get("pi_role", "").lower() == "principal investigator":
+            return pi.get("pi_full_name", "")
+    return pi_list[0].get("pi_full_name", "")
+
+
+def get_program_names(pgm_ele: list) -> str:
+    if not pgm_ele:
+        return ""
+    return "; ".join(p.get("pgm_ele_name", "") for p in pgm_ele)
+
 
 def is_materials_related(record: dict, filter_by_division: bool, lookup_concepts: set | None = None) -> bool:
     if not filter_by_division:
@@ -50,7 +71,6 @@ def is_materials_related(record: dict, filter_by_division: bool, lookup_concepts
             return True
     if div_abbr in MATERIALS_DIV_ABBR:
         return True
-    return any(kw in text for kw in MATERIALS_KEYWORDS)
     return any(kw in text for kw in MATERIALS_KEYWORDS)
 
 
