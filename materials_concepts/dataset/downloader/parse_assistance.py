@@ -154,6 +154,7 @@ def to_pipeline_format(df: pd.DataFrame) -> pd.DataFrame:
         "division":         df["awarding_sub_agency_name"],
         "program":          df["cfda_title"],
         "cfda":             df["cfda_number"],
+        "opportunity_number": df["funding_opportunity_number"],
         "institution":      df["recipient_name"],
         "state":            df["recipient_state_name"],
         "grant_type":       df["assistance_type_description"],
