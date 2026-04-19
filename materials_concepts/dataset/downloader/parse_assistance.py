@@ -132,7 +132,7 @@ def parse_csv_from_zip(zip_path: Path, lookup_concepts: set | None, chunksize: i
 
 
 def to_pipeline_format(df: pd.DataFrame) -> pd.DataFrame:
-    # use whichever description is longer; append goals text if available
+    # combine description fields — use whichever is longer
     desc1 = df["transaction_description"].fillna("")
     desc2 = df["prime_award_base_transaction_description"].fillna("")
     goals = df["funding_opportunity_goals_text"].fillna("")
@@ -141,29 +141,24 @@ def to_pipeline_format(df: pd.DataFrame) -> pd.DataFrame:
     has_goals = goals.str.len() > 10
     abstract[has_goals] = abstract[has_goals] + " " + goals[has_goals]
 
-    # build a meaningful title: "Program Name | Opportunity Number"
-    opp_num = df["funding_opportunity_number"].fillna("").str.strip()
-    prog = df["cfda_title"].fillna("").str.strip()
-    title = prog.where(opp_num == "", prog + " | " + opp_num)
-
     return pd.DataFrame({
         "id":               df["assistance_award_unique_key"],
-        "title":            title,                          # program name + opportunity number
-        "abstract":         abstract,                       # full grant description
+        "abstract":         abstract,
+        "publication_date": pd.to_datetime(
+            df["period_of_performance_start_date"], errors="coerce"
+        ).dt.strftime("%Y-%m-%d"),
+        "exp_date":         df["period_of_performance_current_end_date"],
+        "amount":           pd.to_numeric(df["federal_action_obligation"], errors="coerce").fillna(0),
+        "total_amount":     pd.to_numeric(df["total_obligated_amount"], errors="coerce").fillna(0),
         "agency":           df["awarding_agency_name"],
-        "sub_agency":       df["awarding_sub_agency_name"],
-        "program":          df["cfda_title"],               # CFDA program name
-        "cfda":             df["cfda_number"],              # CFDA code (e.g. 47.049)
-        "opportunity_num":  df["funding_opportunity_number"],
+        "division":         df["awarding_sub_agency_name"],
+        "program":          df["cfda_title"],
+        "cfda":             df["cfda_number"],
         "institution":      df["recipient_name"],
         "state":            df["recipient_state_name"],
         "grant_type":       df["assistance_type_description"],
-        "amount":           pd.to_numeric(df["federal_action_obligation"], errors="coerce").fillna(0),
-        "total_amount":     pd.to_numeric(df["total_obligated_amount"], errors="coerce").fillna(0),
-        "start_date":       pd.to_datetime(
-            df["period_of_performance_start_date"], errors="coerce"
-        ).dt.strftime("%Y-%m-%d"),
-        "end_date":         df["period_of_performance_current_end_date"],
+        "is_retracted":     False,
+        "is_paratext":      False,
     })
 
 
