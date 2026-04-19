@@ -74,7 +74,9 @@ def fetch_page(agency_code: str, keywords: list[str], date_start: str, date_end:
     payload = build_payload(agency_code, keywords, date_start, date_end, page)
     try:
         response = requests.post(USASPENDING_URL, json=payload, timeout=60)
-        response.raise_for_status()
+        if not response.ok:
+            logger.warning(f"API error {response.status_code}: {response.text[:300]}")
+            return [], 0
         data = response.json()
         results = data.get("results", [])
         total = data.get("page_metadata", {}).get("total", 0)
@@ -93,32 +95,41 @@ def fetch_agency_awards(
     fetch_limit: int | None,
 ) -> list[dict]:
     agency_code = agency_info["toptier_code"]
-    results = []
-    page = 1
+    all_results = []
 
-    # get total count first
-    first_page, total = fetch_page(agency_code, keywords, date_start, date_end, 1)
-    if not first_page:
-        return []
+    # batch keywords to avoid API limit (max ~20 per request)
+    batch_size = 20
+    keyword_batches = [keywords[i:i+batch_size] for i in range(0, len(keywords), batch_size)]
+    logger.info(f"  {agency_key}: {len(keyword_batches)} keyword batches")
 
-    results.extend(first_page)
-    max_pages = (min(total, fetch_limit) if fetch_limit else total) // 100 + 1
-
-    with tqdm(total=min(total, fetch_limit or total), desc=f"  {agency_key}", unit=" awards", initial=len(first_page)) as pbar:
-        page = 2
-        while len(results) < (fetch_limit or total):
-            awards, _ = fetch_page(agency_code, keywords, date_start, date_end, page)
-            if not awards:
+    for batch in keyword_batches:
+        page = 1
+        while True:
+            results, total = fetch_page(agency_code, batch, date_start, date_end, page)
+            if not results:
                 break
-            results.extend(awards)
-            pbar.update(len(awards))
+            all_results.extend(results)
+            if fetch_limit and len(all_results) >= fetch_limit:
+                break
+            if page * 100 >= total:
+                break
             page += 1
             time.sleep(0.5)
 
-    if fetch_limit:
-        results = results[:fetch_limit]
+        if fetch_limit and len(all_results) >= fetch_limit:
+            break
 
-    return results
+    # deduplicate by Award ID
+    seen = set()
+    unique = []
+    for r in all_results:
+        rid = r.get("generated_internal_id") or r.get("Award ID")
+        if rid not in seen:
+            seen.add(rid)
+            unique.append(r)
+
+    logger.info(f"  {agency_key}: {len(unique)} unique awards found")
+    return unique[:fetch_limit] if fetch_limit else unique
 
 
 def to_pipeline_format(records: list[dict], agency_key: str) -> pd.DataFrame:
